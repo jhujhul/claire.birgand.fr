@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import LinkIcon from "./link-icon";
 import LinkText from "./link-text";
 import Container from "./container";
@@ -8,17 +9,21 @@ const Header = () => {
     <Container>
       <div className="pt-12 pb-16">
         <nav className="flex items-center justify-between" aria-label="Global">
-          <Image
-            src="/assets/blog/logo.png"
-            alt="Logo"
-            width={220}
-            height={131}
-          />
+          <Link href="/">
+            <a>
+              <Image
+                src="/assets/blog/logo.png"
+                alt="Logo"
+                width={220}
+                height={131}
+              />
+            </a>
+          </Link>
           <div className="hidden md:flex items-center md:ml-10 md:pr-4">
             <div className="md:space-x-9 mr-9">
-              <LinkText name="à propos" />
-              <LinkText name="Portfolio" />
-              <LinkText name="Contact" />
+              <LinkText href="/a-propos" name="à propos" />
+              <LinkText href="/portfolio" name="Portfolio" />
+              <LinkText href="/contact" name="Contact" />
             </div>
             <div className="md:space-x-1">
               <LinkIcon name="Mail">

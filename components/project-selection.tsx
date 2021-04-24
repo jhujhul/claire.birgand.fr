@@ -1,8 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
+import { FunctionComponent } from "react";
 
+import { Project } from "../types";
 import Container from "./container";
 
-const ProjectSelection = () => {
+interface Props {
+  projects: Project[];
+}
+const ProjectSelection: FunctionComponent<Props> = (props) => {
+  const { projects } = props;
+
   return (
     <section className="bg-darkGray pt-7 pb-4">
       <Container>
@@ -20,46 +28,30 @@ const ProjectSelection = () => {
           </h2>
         </div>
         <div className="grid grid-cols-3 gap-4 mb-6">
-          <div>
-            <div
-              className="bg-gray-400 mb-2"
-              style={{ paddingBottom: "100%" }}
-            ></div>
-            <p className="text-white italic text-center">ENTREPRISE</p>
-            <p className="text-white italic text-center">Les réalisations</p>
-          </div>
-          <div>
-            <div
-              className="bg-gray-400 mb-2"
-              style={{ paddingBottom: "100%" }}
-            ></div>
-            <p className="text-white italic text-center">ENTREPRISE</p>
-            <p className="text-white italic text-center">Les réalisations</p>
-          </div>
-          <div>
-            <div
-              className="bg-gray-400 mb-2"
-              style={{ paddingBottom: "100%" }}
-            ></div>
-            <p className="text-white italic text-center">ENTREPRISE</p>
-            <p className="text-white italic text-center">Les réalisations</p>
-          </div>
-          <div>
-            <div
-              className="bg-gray-400 mb-2"
-              style={{ paddingBottom: "100%" }}
-            ></div>
-            <p className="text-white italic text-center">ENTREPRISE</p>
-            <p className="text-white italic text-center">Les réalisations</p>
-          </div>
-          <div>
-            <div
-              className="bg-gray-400 mb-2"
-              style={{ paddingBottom: "100%" }}
-            ></div>
-            <p className="text-white italic text-center">ENTREPRISE</p>
-            <p className="text-white italic text-center">Les réalisations</p>
-          </div>
+          {projects.map((project) => {
+            const { title, slug } = project;
+
+            return (
+              <Link
+                as={`/projects/${slug}`}
+                href="/projects/[slug]"
+                key={title}
+              >
+                <a>
+                  <div
+                    className="bg-gray-400 mb-2"
+                    style={{ paddingBottom: "100%" }}
+                  ></div>
+                  <p className="text-white italic text-center uppercase">
+                    {title}
+                  </p>
+                  <p className="text-white italic text-center">
+                    Les réalisations
+                  </p>
+                </a>
+              </Link>
+            );
+          })}
         </div>
         <div className="text-center">
           <a href="#" className="text-alien">

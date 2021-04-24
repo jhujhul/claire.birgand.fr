@@ -1,47 +1,37 @@
-import fs from 'fs'
-import { join } from 'path'
-import matter from 'gray-matter'
+import { promises as fs } from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { Project, ProjectFrontMatter } from "../types";
 
-const postsDirectory = join(process.cwd(), '_posts')
+const projectsDirectory = path.join(process.cwd(), "data/_projects");
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory)
+const getSlug = (filename: string): string => filename.replace(".md", "");
+
+const getFilename = (slug: string): string => `${slug}.md`;
+
+export async function getProjectBySlug(slug: string): Promise<Project> {
+  const filename = getFilename(slug);
+  const filePath = path.join(projectsDirectory, filename);
+  const fileContents = await fs.readFile(filePath, "utf8");
+
+  const result = matter(fileContents);
+  const data = result.data as ProjectFrontMatter;
+  const content = result.content;
+
+  return {
+    ...data,
+    content,
+    slug,
+  };
 }
 
-export function getPostBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(postsDirectory, `${realSlug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
+export async function getAllProjects(): Promise<Project[]> {
+  const filenames = await fs.readdir(projectsDirectory);
 
-  type Items = {
-    [key: string]: string
-  }
+  const projects = filenames.map(async (filename) => {
+    const slug = getSlug(filename);
+    return getProjectBySlug(slug);
+  });
 
-  const items: Items = {}
-
-  // Ensure only the minimal needed data is exposed
-  fields.forEach((field) => {
-    if (field === 'slug') {
-      items[field] = realSlug
-    }
-    if (field === 'content') {
-      items[field] = content
-    }
-
-    if (data[field]) {
-      items[field] = data[field]
-    }
-  })
-
-  return items
-}
-
-export function getAllPosts(fields: string[] = []) {
-  const slugs = getPostSlugs()
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return posts
+  return await Promise.all(projects);
 }
