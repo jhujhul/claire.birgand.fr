@@ -9,8 +9,8 @@ sections:
   label: Projets
   create: documents
   match: "**/*"
-upload_dir: public/static
-public_path: "/static"
+upload_dir: public/assets
+public_path: "/assets"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
