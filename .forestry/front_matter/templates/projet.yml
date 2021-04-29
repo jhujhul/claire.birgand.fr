@@ -9,4 +9,5 @@ fields:
   name: picture
   label: picture
 pages:
+- data/_projects/miaaaaoui.md
 - data/_projects/miaou.md
