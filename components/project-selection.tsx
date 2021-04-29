@@ -39,9 +39,15 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
               >
                 <a>
                   <div
-                    className="bg-gray-400 mb-2"
+                    className="relative bg-gray-400 mb-2"
                     style={{ paddingBottom: "100%" }}
-                  ></div>
+                  >
+                    <Image
+                      src={project.picture}
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
                   <p className="text-white italic text-center uppercase">
                     {title}
                   </p>
