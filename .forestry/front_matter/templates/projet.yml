@@ -11,3 +11,5 @@ fields:
 - type: file
   name: picture
   label: picture
+pages:
+- data/_projects/miaou.md
