@@ -7,8 +7,13 @@ fields:
   config:
     required: false
   label: Titre
-- name: sections
+- name: section-1
   type: include
   config: {}
   template: section
-  label: Sections
+  label: Section 1
+- name: section-2
+  type: include
+  config: {}
+  template: section
+  label: Section 2
