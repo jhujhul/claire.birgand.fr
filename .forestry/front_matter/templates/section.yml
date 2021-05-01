@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Titre
+  label: Titre Section
 - name: description
   type: textarea
   default: ''
@@ -15,8 +15,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Description
+  label: Description Section
 - name: images
   type: image_gallery
   config: {}
-  label: Images
+  label: Section Images
