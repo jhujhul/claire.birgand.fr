@@ -11,5 +11,6 @@ sections:
   images:
   - "/assets/blog/preview/cover.jpg"
   - "/assets/39482010a159bdf41c9044c09b46789e.jpeg"
+main-image: "/assets/39482010a159bdf41c9044c09b46789e.jpeg"
 
 ---
