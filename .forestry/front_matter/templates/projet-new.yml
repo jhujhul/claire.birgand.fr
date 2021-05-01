@@ -1,4 +1,9 @@
 ---
 label: Projet New
 hide_body: true
-fields: []
+fields:
+- name: sections
+  type: include
+  config: {}
+  template: section
+  label: Sections
