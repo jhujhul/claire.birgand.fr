@@ -18,7 +18,7 @@ fields:
   template_types:
   - section
   config:
-    min: 1
+    min: 0
     max: 10
 pages:
 - data/_projects/deuxieme-test.md
