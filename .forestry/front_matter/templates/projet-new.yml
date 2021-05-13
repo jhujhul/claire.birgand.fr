@@ -22,3 +22,4 @@ fields:
     max: 10
 pages:
 - data/_projects/deuxieme-test.md
+- data/_projects/projet-sans-section-ni-image.md
