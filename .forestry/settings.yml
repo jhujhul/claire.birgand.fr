@@ -11,8 +11,8 @@ sections:
   match: "**/*"
   templates:
   - projet-new
-upload_dir: public/assets
-public_path: "/assets"
+upload_dir: public/cms
+public_path: "/cms"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
