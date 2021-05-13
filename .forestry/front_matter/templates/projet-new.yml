@@ -5,7 +5,7 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Titre
 - name: mainImage
   type: file
