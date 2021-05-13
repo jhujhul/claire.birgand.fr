@@ -29,6 +29,10 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
         </div>
         <div className="grid grid-cols-3 gap-4 mb-6">
           {projects.map((project) => {
+            console.log(
+              "🚀 ~ file: project-selection.tsx ~ line 32 ~ {projects.map ~ projects",
+              projects
+            );
             const { title, slug } = project;
 
             return (

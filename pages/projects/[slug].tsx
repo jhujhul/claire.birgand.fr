@@ -71,6 +71,10 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   const projects = await getAllProjects();
+  console.log(
+    "🚀 ~ file: [slug].tsx ~ line 74 ~ getStaticPaths ~ projects",
+    projects
+  );
 
   return {
     paths: projects.map((project) => {
