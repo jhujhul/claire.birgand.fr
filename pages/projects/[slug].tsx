@@ -14,6 +14,7 @@ type Props = {
 };
 const ProjectComponent: FunctionComponent<Props> = (props) => {
   const { project } = props;
+  console.log("🚀 ~ file: [slug].tsx ~ line 17 ~ project", project);
 
   const router = useRouter();
   if (!router.isFallback && !project?.slug) {
@@ -25,8 +26,22 @@ const ProjectComponent: FunctionComponent<Props> = (props) => {
       <Container>
         {project.title}
         <div className="h-96 w-full relative">
-          <Image src={project.picture} layout="fill" objectFit="contain" />
+          <Image src={project.mainImage} layout="fill" objectFit="contain" />
         </div>
+        {project.sections.map((section) => {
+          return (
+            <div>
+              <div>{section.title}</div>
+              <div>{section.description}</div>
+
+              {section.images.map((image) => (
+                <div className="h-96 w-full relative">
+                  <Image src={image} layout="fill" objectFit="contain" />
+                </div>
+              ))}
+            </div>
+          );
+        })}
         <div dangerouslySetInnerHTML={{ __html: project.content }} />
       </Container>
     </Layout>

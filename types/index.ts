@@ -5,5 +5,12 @@ export type Project = {
 
 export interface ProjectFrontMatter {
   title: string;
-  picture: string;
+  mainImage: string;
+  sections: Section[];
+}
+
+interface Section {
+  title: string;
+  description: string;
+  images: string[];
 }

@@ -5,7 +5,7 @@
 Start dev server:
 
 ```bash
-nvm use 12
+nvm use
 yarn dev -p 3001
 ```
 

@@ -15,7 +15,6 @@ interface Props {
 }
 const Index: FunctionComponent<Props> = (props) => {
   const { projects } = props;
-  console.log("projects", projects);
   // const heroPost = allPosts[0];
   // const morePosts = allPosts.slice(1);
   return (

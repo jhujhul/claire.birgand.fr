@@ -43,7 +43,7 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
                     style={{ paddingBottom: "100%" }}
                   >
                     <Image
-                      src={project.picture}
+                      src={project.mainImage}
                       layout="fill"
                       objectFit="cover"
                     />
