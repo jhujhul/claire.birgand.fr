@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Titre
-- name: main-image
+- name: mainImage
   type: file
   config:
     maxSize: 64
