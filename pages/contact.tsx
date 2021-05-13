@@ -4,16 +4,14 @@ import Layout from "../components/layout";
 
 const Contact = () => {
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>Contact</title>
-        </Head>
-        <Container>
-          <h1>Contact</h1>
-        </Container>
-      </Layout>
-    </>
+    <Layout>
+      <Head>
+        <title>Contact</title>
+      </Head>
+      <Container>
+        <h1>Contact</h1>
+      </Container>
+    </Layout>
   );
 };
 

@@ -4,16 +4,14 @@ import Layout from "../components/layout";
 
 const Portfolio = () => {
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>Portfolio</title>
-        </Head>
-        <Container>
-          <h1>Portfolio</h1>
-        </Container>
-      </Layout>
-    </>
+    <Layout>
+      <Head>
+        <title>Portfolio</title>
+      </Head>
+      <Container>
+        <h1>Portfolio</h1>
+      </Container>
+    </Layout>
   );
 };
 
