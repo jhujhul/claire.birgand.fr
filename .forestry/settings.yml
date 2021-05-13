@@ -5,17 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: data/_projects2
-  label: Projets New
-  create: documents
-  match: "**/*"
-  templates:
-  - projet-new
-- type: directory
   path: data/_projects
   label: Projets
   create: documents
   match: "**/*"
+  templates:
+  - projet-new
 upload_dir: public/assets
 public_path: "/assets"
 front_matter_path: ''
