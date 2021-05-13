@@ -16,11 +16,9 @@ export async function getProjectBySlug(slug: string): Promise<Project> {
 
   const result = matter(fileContents);
   const data = result.data as ProjectFrontMatter;
-  const content = result.content;
 
   return {
     ...data,
-    content,
     slug,
   };
 }

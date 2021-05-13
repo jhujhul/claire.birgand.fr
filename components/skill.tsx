@@ -9,7 +9,7 @@ const Skill: FunctionComponent<SkillProps> = (props) => {
   return (
     <div
       className="max-w-xs flex bg-left bg-no-repeat bg-contain pl-9 pt-2 pb-4"
-      style={{ backgroundImage: "url(/assets/blog/double-trait.png)" }}
+      style={{ backgroundImage: "url(/assets/double-trait.png)" }}
     >
       <div>
         <h3 className="relative inline-block font-mono text-4xl leading-9 mb-6">

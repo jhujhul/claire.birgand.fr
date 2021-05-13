@@ -9,7 +9,7 @@ const Testimonials = () => {
         <div className="flex items-center -ml-10 pb-7">
           <div className="flex-shrink-0 flex items-center mr-3">
             <Image
-              src="/assets/blog/asterisque-anis.png"
+              src="/assets/asterisque-anis.png"
               alt="Asterisque"
               width={27}
               height={26}
@@ -24,7 +24,7 @@ const Testimonials = () => {
           <div className="w-2/3 pt-7">
             <div className="mb-4">
               <Image
-                src="/assets/blog/guillemets.png"
+                src="/assets/guillemets.png"
                 alt="Guillemets"
                 width={74}
                 height={58}

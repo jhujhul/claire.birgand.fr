@@ -17,7 +17,7 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
         <div className="flex items-center -ml-10 pb-7">
           <div className="flex-shrink-0 flex items-center mr-3">
             <Image
-              src="/assets/blog/asterisque-blanche.png"
+              src="/assets/asterisque-blanche.png"
               alt="Asterisque"
               width={27}
               height={26}
@@ -33,7 +33,7 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
               "🚀 ~ file: project-selection.tsx ~ line 32 ~ {projects.map ~ projects",
               projects
             );
-            const { title, slug } = project;
+            const { title, slug, mainImage } = project;
 
             return (
               <Link
@@ -46,11 +46,13 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
                     className="relative bg-gray-400 mb-2"
                     style={{ paddingBottom: "100%" }}
                   >
-                    <Image
-                      src={project.mainImage}
-                      layout="fill"
-                      objectFit="cover"
-                    />
+                    {mainImage && (
+                      <Image
+                        src={project.mainImage}
+                        layout="fill"
+                        objectFit="cover"
+                      />
+                    )}
                   </div>
                   <p className="text-white italic text-center uppercase">
                     {title}

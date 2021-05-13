@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex">
             <span className="flex items-center mr-7">
               <Image
-                src="/assets/blog/geoloc.png"
+                src="/assets/geoloc.png"
                 alt="Marqueur"
                 width={12}
                 height={17}
@@ -22,7 +22,7 @@ const Footer = () => {
               className="flex items-center mr-7"
             >
               <Image
-                src="/assets/blog/asterisque-anis-small.png"
+                src="/assets/asterisque-anis-small.png"
                 alt="Asterisque"
                 width={14}
                 height={13}
@@ -31,7 +31,7 @@ const Footer = () => {
             </a>
             <a href="tel:0632000112" className="flex items-center">
               <Image
-                src="/assets/blog/asterisque-anis-small.png"
+                src="/assets/asterisque-anis-small.png"
                 alt="Asterisque"
                 width={14}
                 height={13}

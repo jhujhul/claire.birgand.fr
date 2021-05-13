@@ -6,7 +6,6 @@ import Image from "next/image";
 import Container from "../../components/container";
 import Layout from "../../components/layout";
 import { getAllProjects, getProjectBySlug } from "../../lib/api";
-import markdownToHtml from "../../lib/markdownToHtml";
 import { Project } from "../../types";
 
 type Props = {
@@ -42,7 +41,6 @@ const ProjectComponent: FunctionComponent<Props> = (props) => {
             </div>
           );
         })}
-        <div dangerouslySetInnerHTML={{ __html: project.content }} />
       </Container>
     </Layout>
   );
@@ -57,13 +55,11 @@ type Params = {
 };
 export async function getStaticProps({ params }: Params) {
   const project = await getProjectBySlug(params.slug);
-  const content = await markdownToHtml(project.content || "");
 
   return {
     props: {
       project: {
         ...project,
-        content,
       },
     },
   };
