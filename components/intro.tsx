@@ -7,35 +7,35 @@ const Intro = () => {
   const wishEl = useRef<HTMLElement | null>(null);
   const typed = useRef<Typed | null>(null);
 
-  useEffect(() => {
-    const options = {
-      strings: [
-        "une carte de visite ?",
-        "un costume de l'espace ?",
-        "de l'eau bien fraiche ?",
-        "un gros calin ?",
-      ],
-      typeSpeed: 20,
-      backSpeed: 20,
-      backDelay: 1200,
-      startDelay: 600,
-      loop: true,
-    };
-    typed.current = new Typed(wishEl.current as HTMLElement, options);
+  // useEffect(() => {
+  //   const options = {
+  //     strings: [
+  //       "une carte de visite ?",
+  //       "un costume de l'espace ?",
+  //       "de l'eau bien fraiche ?",
+  //       "un gros calin ?",
+  //     ],
+  //     typeSpeed: 20,
+  //     backSpeed: 20,
+  //     backDelay: 1200,
+  //     startDelay: 600,
+  //     loop: true,
+  //   };
+  //   typed.current = new Typed(wishEl.current as HTMLElement, options);
 
-    return function cleanup() {
-      typed.current?.destroy();
-    };
-  }, []);
+  //   return function cleanup() {
+  //     typed.current?.destroy();
+  //   };
+  // }, []);
 
   return (
     <section className="text-darkGray">
       <Container>
         <h1 className="mb-3">Bonjour :)</h1>
-        <h2 className="text-4xl leading-10 mb-3">
+        {/* <h2 className="text-4xl leading-10 mb-3">
           <span className="font-light">Vous souhaitez créer</span>{" "}
           <span className="font-bold text-alien bg-darkGray" ref={wishEl} />
-        </h2>
+        </h2> */}
         <p>Vous êtes au bon endroit !</p>
         <p>
           Je vous accompagne dans la réalisation de vos projets graphiques en
