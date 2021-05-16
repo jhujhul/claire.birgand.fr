@@ -20,6 +20,10 @@ fields:
   config:
     min: 0
     max: 10
+- name: featured
+  type: boolean
+  label: Sur la page d'accueil
+  default: false
 pages:
 - data/_projects/deuxieme-test.md
 - data/_projects/projet-sans-section-ni-image.md

@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/config.json
   label: Configuration
-  match: "**/*"
 - type: directory
   path: data/_projects
   label: Projets
