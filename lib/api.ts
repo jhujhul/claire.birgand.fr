@@ -23,13 +23,20 @@ export async function getProjectBySlug(slug: string): Promise<Project> {
   };
 }
 
-export async function getAllProjects(): Promise<Project[]> {
+interface GetAllProjectsInput {
+  onlyFeatured: boolean;
+}
+export async function getAllProjects({
+  onlyFeatured,
+}: GetAllProjectsInput): Promise<Project[]> {
   const filenames = await fs.readdir(projectsDirectory);
 
-  const projects = filenames.map(async (filename) => {
+  const projectPromises = filenames.map(async (filename) => {
     const slug = getSlug(filename);
     return getProjectBySlug(slug);
   });
 
-  return await Promise.all(projects);
+  const projects = await Promise.all(projectPromises);
+
+  return projects.filter((project) => !onlyFeatured || project.featured);
 }

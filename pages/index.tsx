@@ -29,7 +29,7 @@ const Index: FunctionComponent<Props> = (props) => {
 export default Index;
 
 export const getStaticProps = async () => {
-  const projects = await getAllProjects();
+  const projects = await getAllProjects({ onlyFeatured: true });
 
   return {
     props: { projects },

@@ -7,6 +7,9 @@ export default class MyDocument extends Document {
         <Head />
         <body>
           <Main />
+          <div id="headlessui-portal-root">
+            <div></div>
+          </div>
           <NextScript />
         </body>
       </Html>

@@ -6,4 +6,5 @@ sections:
     description: Serge d'assaut
     images: []
 mainImage: "/cms/tim.jpeg"
+featured: false
 ---

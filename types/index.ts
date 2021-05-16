@@ -6,6 +6,7 @@ export interface ProjectFrontMatter {
   title: string;
   mainImage: string;
   sections: Section[];
+  featured: boolean;
 }
 
 interface Section {

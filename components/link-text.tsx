@@ -1,4 +1,6 @@
+import classNames from "classnames";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { FunctionComponent } from "react";
 
 interface LinkTextProps {
@@ -7,12 +9,17 @@ interface LinkTextProps {
 }
 const LinkText: FunctionComponent<LinkTextProps> = (props) => {
   const { href, name } = props;
+  const router = useRouter();
+
+  const isActive = router.pathname === href;
+  const className = classNames(
+    "font-light text-black hover:text-gray-900 text-lg leading-5 uppercase",
+    { "border-b border-black": isActive }
+  );
 
   return (
     <Link href={href}>
-      <a className="font-light text-black hover:text-gray-900 text-lg leading-5 uppercase">
-        {name}
-      </a>
+      <a className={className}>{name}</a>
     </Link>
   );
 };
