@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
 
-import { useMediaQuery } from "../hooks/UseMediaQuery";
+import { useMediaQuery } from "../hooks/useMediaQuery";
 
 interface SkillProps {
   name: string;
