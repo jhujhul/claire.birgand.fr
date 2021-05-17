@@ -5,12 +5,21 @@ export type Project = {
 export interface ProjectFrontMatter {
   title: string;
   mainImage: string;
-  sections: Section[];
+  sections: ProjectSection[];
   featured: boolean;
 }
 
-interface Section {
+interface ProjectSection {
   title: string;
   description: string;
   images: string[];
+}
+
+export type Testimonial = TestimonialFrontMatter;
+
+interface TestimonialFrontMatter {
+  quote: string;
+  name: string;
+  profession: string;
+  image: string;
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Container from "./container";
+import FooterItem from "./footer-item";
 
 const Footer = () => {
   return (
@@ -8,44 +9,47 @@ const Footer = () => {
       <Container>
         <div className="flex flex-col md:flex-row md:justify-between py-6 md:py-3 text-white ">
           <div className="flex flex-col md:flex-row">
-            <span className="flex items-center mr-7 mb-4">
-              <div className="flex items-center justify-center w-4">
-                <Image
-                  src="/assets/geoloc.png"
-                  alt="Marqueur"
-                  width={12}
-                  height={17}
-                />
-              </div>
-              <span className="ml-2 uppercase">Rennes</span>
+            <span className="mr-7 mb-4">
+              <FooterItem
+                title="Rennes"
+                icon={
+                  <Image
+                    src="/assets/geoloc.png"
+                    alt="Marqueur"
+                    width={12}
+                    height={17}
+                  />
+                }
+              />
             </span>
-            <a
-              href="mailto:claire.birgand@outlook.fr"
-              className="flex items-center mr-7 mb-4"
-            >
-              <div className="flex items-center justify-center w-4">
-                <Image
-                  src="/assets/asterisque-anis-small.png"
-                  alt="Asterisque"
-                  width={14}
-                  height={13}
-                />
-              </div>
-              <span className="ml-2 uppercase">claire.birgand@outlook.fr</span>
+            <a className="mr-7 mb-4" href="mailto:claire.birgand@outlook.fr">
+              <FooterItem
+                title="claire.birgand@outlook.fr"
+                icon={
+                  <Image
+                    src="/assets/asterisque-anis-small.png"
+                    alt="Asterisque"
+                    width={14}
+                    height={13}
+                  />
+                }
+              />
             </a>
-            <a href="tel:0632000112" className="flex items-center mb-4">
-              <div className="flex items-center justify-center w-4">
-                <Image
-                  src="/assets/asterisque-anis-small.png"
-                  alt="Asterisque"
-                  width={14}
-                  height={13}
-                />
-              </div>
-              <span className="ml-2">06 32 00 01 12</span>
+            <a className="mb-4" href="tel:0632000112">
+              <FooterItem
+                title="06 32 00 01 12"
+                icon={
+                  <Image
+                    src="/assets/asterisque-anis-small.png"
+                    alt="Asterisque"
+                    width={14}
+                    height={13}
+                  />
+                }
+              />
             </a>
           </div>
-          <div className="mt-4">© Claire Birgand</div>
+          <div className="mt-4 md:mt-0">© Claire Birgand</div>
         </div>
       </Container>
     </footer>

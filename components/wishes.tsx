@@ -28,7 +28,7 @@ const Wishes: FunctionComponent = () => {
 
   return (
     <div>
-      <h2 className="text-4xl leading-10 mb-4">
+      <h2 className="text-4xl mb-4">
         <span className="font-light">Vous souhaitez créer</span>
         <br className="md:hidden" />
         <div className="h-20 md:h-auto">

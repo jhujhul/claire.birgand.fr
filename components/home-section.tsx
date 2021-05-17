@@ -9,7 +9,7 @@ const HomeSection: FunctionComponent<Props> = (props) => {
   const { backgroundColor, children } = props;
 
   return (
-    <section className={`${backgroundColor} pt-4 md:pt-7 pb-4`}>
+    <section className={`${backgroundColor} pt-4 md:pt-7 pb-4 md:px-6`}>
       <Container>{children}</Container>
     </section>
   );

@@ -13,7 +13,6 @@ type Props = {
 };
 const ProjectComponent: FunctionComponent<Props> = (props) => {
   const { project } = props;
-  console.log("🚀 ~ file: [slug].tsx ~ line 17 ~ project", project);
 
   const router = useRouter();
   if (!router.isFallback && !project?.slug) {
@@ -67,10 +66,6 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   const projects = await getAllProjects({ onlyFeatured: false });
-  console.log(
-    "🚀 ~ file: [slug].tsx ~ line 74 ~ getStaticPaths ~ projects",
-    projects
-  );
 
   return {
     paths: projects.map((project) => {

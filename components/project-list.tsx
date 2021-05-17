@@ -16,8 +16,8 @@ const ProjectList: FunctionComponent<Props> = (props) => {
         const { title, slug, mainImage } = project;
 
         return (
-          <div className="mb-2">
-            <Link as={`/projects/${slug}`} href="/projects/[slug]" key={title}>
+          <div className="mb-2" key={slug}>
+            <Link as={`/projects/${slug}`} href="/projects/[slug]">
               <a>
                 <div
                   className="relative bg-gray-400 mb-2"
@@ -25,7 +25,7 @@ const ProjectList: FunctionComponent<Props> = (props) => {
                 >
                   {mainImage && (
                     <Image
-                      src={project.mainImage}
+                      src={mainImage}
                       layout="fill"
                       objectFit="cover"
                       className="hover:opacity-75 transition-opacity duration-300"

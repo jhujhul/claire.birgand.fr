@@ -33,7 +33,6 @@ const mobileLinks = [
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   let closeDialobButtonRef = useRef(null);
-  console.log("🚀 ~ file: header.tsx ~ line 27 ~ Header ~ isOpen", isOpen);
 
   return (
     <Container>
