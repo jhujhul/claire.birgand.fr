@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: data/_testimonials
+  label: Témoignages
+  create: documents
+  match: "**/*"
+  templates:
+  - temoignage
 - type: document
   path: data/config.json
   label: Configuration
