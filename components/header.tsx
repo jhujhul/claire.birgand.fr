@@ -48,7 +48,7 @@ const Header = () => {
               />
             </a>
           </Link>
-          <div className="flex md:hidden">
+          {/* <div className="flex md:hidden">
             <button
               type="button"
               className="inline-flex items-center justify-center rounded-md text-black hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
@@ -59,13 +59,13 @@ const Header = () => {
               <span className="sr-only">Ouvrir le menu principal</span>
               <MenuIcon className="h-6 w-6" />
             </button>
-          </div>
+          </div> */}
           <div className="hidden md:flex items-center md:ml-10 md:pr-4">
-            <div className="md:space-x-9 mr-9">
+            {/* <div className="md:space-x-9 mr-9">
               {links.map(({ href, name }) => (
                 <LinkText key={href} href={href} name={name} />
               ))}
-            </div>
+            </div> */}
             <div className="md:space-x-1">
               <LinkIcon name="Mail">
                 <svg
@@ -97,7 +97,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <Dialog
+      {/* <Dialog
         open={isOpen}
         onClose={() => setIsOpen(false)}
         className="fixed z-10 inset-0 overflow-y-auto bg-white pt-5"
@@ -125,7 +125,7 @@ const Header = () => {
             ))}
           </div>
         </Container>
-      </Dialog>
+      </Dialog> */}
     </Container>
   );
 };
