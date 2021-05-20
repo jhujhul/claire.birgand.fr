@@ -1,47 +1,63 @@
-import fs from 'fs'
-import { join } from 'path'
-import matter from 'gray-matter'
+import { promises as fs } from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { Project, ProjectFrontMatter, Testimonial } from "../types";
 
-const postsDirectory = join(process.cwd(), '_posts')
+const projectsDirectory = path.join(process.cwd(), "data/_projects");
+const testimonialsDirectory = path.join(process.cwd(), "data/_testimonials");
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory)
+const getSlug = (filename: string): string => filename.replace(".md", "");
+
+const getFilename = (slug: string): string => `${slug}.md`;
+
+export async function getProjectBySlug(slug: string): Promise<Project> {
+  const filename = getFilename(slug);
+  const filePath = path.join(projectsDirectory, filename);
+  const fileContents = await fs.readFile(filePath, "utf8");
+
+  const result = matter(fileContents);
+  const data = result.data as ProjectFrontMatter;
+
+  return {
+    ...data,
+    slug,
+  };
 }
 
-export function getPostBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = join(postsDirectory, `${realSlug}.md`)
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
+interface GetAllProjectsInput {
+  onlyFeatured: boolean;
+}
+export async function getAllProjects({
+  onlyFeatured,
+}: GetAllProjectsInput): Promise<Project[]> {
+  const filenames = await fs.readdir(projectsDirectory);
 
-  type Items = {
-    [key: string]: string
-  }
+  const projectPromises = filenames.map(async (filename) => {
+    const slug = getSlug(filename);
+    return getProjectBySlug(slug);
+  });
 
-  const items: Items = {}
+  const projects = await Promise.all(projectPromises);
 
-  // Ensure only the minimal needed data is exposed
-  fields.forEach((field) => {
-    if (field === 'slug') {
-      items[field] = realSlug
-    }
-    if (field === 'content') {
-      items[field] = content
-    }
-
-    if (data[field]) {
-      items[field] = data[field]
-    }
-  })
-
-  return items
+  return projects.filter((project) => !onlyFeatured || project.featured);
 }
 
-export function getAllPosts(fields: string[] = []) {
-  const slugs = getPostSlugs()
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return posts
+async function getTestimonial(filename: string): Promise<Testimonial> {
+  const filePath = path.join(testimonialsDirectory, filename);
+  const fileContents = await fs.readFile(filePath, "utf8");
+
+  const result = matter(fileContents);
+  const data = result.data as Testimonial;
+
+  return data;
+}
+
+export async function getAllTestimonials(): Promise<Testimonial[]> {
+  const filenames = await fs.readdir(testimonialsDirectory);
+
+  const testimonialPromises = filenames.map(async (filename) => {
+    return getTestimonial(filename);
+  });
+
+  return await Promise.all(testimonialPromises);
 }

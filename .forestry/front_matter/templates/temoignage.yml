@@ -1,0 +1,31 @@
+---
+label: Témoignage
+hide_body: true
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Nom
+- name: profession
+  type: text
+  config:
+    required: true
+  label: Profession
+- name: quote
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Citation
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+pages:
+- data/_testimonials/test-1.md
+- data/_testimonials/test-2.md

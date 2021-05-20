@@ -1,32 +1,59 @@
-import Container from './container'
-import { EXAMPLE_PATH } from '../lib/constants'
+import Image from "next/image";
+
+import Container from "./container";
+import FooterItem from "./footer-item";
 
 const Footer = () => {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
+    <footer className="bg-darkGray">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
+        <div className="flex flex-col md:flex-row md:justify-between py-6 md:py-3 text-white ">
+          <div className="flex flex-col md:flex-row">
+            <span className="mr-7 mb-4">
+              <FooterItem
+                title="Rennes"
+                icon={
+                  <Image
+                    src="/assets/geoloc.png"
+                    alt="Marqueur"
+                    width={12}
+                    height={17}
+                  />
+                }
+              />
+            </span>
+            <a className="mr-7 mb-4" href="mailto:claire.birgand@outlook.fr">
+              <FooterItem
+                title="claire.birgand@outlook.fr"
+                icon={
+                  <Image
+                    src="/assets/asterisque-anis-small.png"
+                    alt="Asterisque"
+                    width={14}
+                    height={13}
+                  />
+                }
+              />
             </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
+            <a className="mb-4" href="tel:0632000112">
+              <FooterItem
+                title="06 32 00 01 12"
+                icon={
+                  <Image
+                    src="/assets/asterisque-anis-small.png"
+                    alt="Asterisque"
+                    width={14}
+                    height={13}
+                  />
+                }
+              />
             </a>
           </div>
+          <div className="mt-4 md:mt-0">© Claire Birgand</div>
         </div>
       </Container>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
