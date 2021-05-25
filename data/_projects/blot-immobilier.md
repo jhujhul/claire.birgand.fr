@@ -1,6 +1,6 @@
 ---
 title: Blot Immobilier
-mainImage: "/cms/h_a49.jpg"
+mainImage: ''
 sections: []
 featured: true
 
