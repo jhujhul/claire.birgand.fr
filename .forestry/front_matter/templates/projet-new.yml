@@ -25,6 +25,7 @@ fields:
   label: Sur la page d'accueil
   default: false
 pages:
+- data/_projects/blot-immobilier.md
 - data/_projects/deuxieme-test.md
 - data/_projects/projet-sans-section-ni-image.md
 - data/_projects/rennes-metropole-handball.md
