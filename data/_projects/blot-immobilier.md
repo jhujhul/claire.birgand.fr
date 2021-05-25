@@ -1,6 +1,6 @@
 ---
 title: Blot Immobilier
-mainImage: ''
+mainImage: "/cms/blot.jpg"
 sections: []
 featured: true
 
