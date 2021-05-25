@@ -1,6 +1,6 @@
 ---
 title: Rennes Métropole Handball
-mainImage: "/cms/dsc07038.JPG"
+mainImage: "/cms/site_web.jpg"
 sections: []
 featured: true
 
