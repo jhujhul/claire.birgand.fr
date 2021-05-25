@@ -1,6 +1,6 @@
 ---
 title: VTT Loyat
-mainImage: "/cms/vtt.jpg"
+mainImage: ''
 sections: []
 featured: true
 
