@@ -24,13 +24,13 @@ fields:
   type: boolean
   label: Sur la page d'accueil
   default: false
-- name: category
+- name: categories
   type: tag_list
   default:
   - graphisme
   - lettering
   - design
-  label: Catégorie
+  label: Catégories
 pages:
 - data/_projects/blot-immobilier.md
 - data/_projects/deuxieme-test.md
