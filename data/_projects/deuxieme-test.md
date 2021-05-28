@@ -8,6 +8,6 @@ sections:
 mainImage: "/cms/tim.jpeg"
 featured: false
 categories:
-- categories
+- John
 
 ---
