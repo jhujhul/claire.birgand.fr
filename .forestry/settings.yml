@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: data/_project-categories
+  label: Catégories (projet)
+  create: documents
+  match: "**/*"
+  templates:
+  - categorie-projet
+- type: directory
   path: data/_testimonials
   label: Témoignages
   create: documents
