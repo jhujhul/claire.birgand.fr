@@ -32,7 +32,7 @@ fields:
     max: 
     source:
       type: pages
-      section: configuration
+      section: categories-projet
   label: Catégories
 pages:
 - data/_projects/blot-immobilier.md
