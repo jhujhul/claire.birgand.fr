@@ -31,7 +31,7 @@ fields:
     min: 
     max: 
     source:
-      type: documents
+      type: simple
       section: config
       file: data/config.yaml
       path: authors
