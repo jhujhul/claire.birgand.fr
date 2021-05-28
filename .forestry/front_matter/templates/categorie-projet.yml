@@ -1,4 +1,15 @@
 ---
 label: Catégorie (projet)
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Nom
+- name: id
+  type: text
+  config:
+    required: false
+  label: Id
+  description: Identifie la catégorie. Doit donc être unique, en minuscule, sans accent.
