@@ -8,7 +8,6 @@ sections:
 mainImage: "/cms/tim.jpeg"
 featured: false
 categories:
-- John
-- John
+- Lettering
 
 ---
