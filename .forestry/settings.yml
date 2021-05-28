@@ -4,16 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/config.yaml
-  label: Config
-- type: directory
-  path: data/_projectCategories
-  label: Catégories (projet)
-  create: documents
-  match: "**/*"
-  templates:
-  - liste-des-categories-projet
 - type: directory
   path: data/_testimonials
   label: Témoignages
