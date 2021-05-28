@@ -31,8 +31,9 @@ fields:
     min: 
     max: 
     source:
-      type: pages
-      section: categories-projet
+      type: documents
+      section: categories-projet-339a45e3-20f5-4942-a91f-fcb8264dc924
+      file: data/_projectCategories/config.md
   label: Catégories
 pages:
 - data/_projects/blot-immobilier.md
