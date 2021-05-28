@@ -14,5 +14,6 @@ fields:
   label: Id
   description: Identifie la catégorie. Doit donc être unique, en minuscule, sans accent.
 pages:
+- data/_project-categories/design.md
 - data/_project-categories/graphisme.md
 - data/_project-categories/lettering.md
