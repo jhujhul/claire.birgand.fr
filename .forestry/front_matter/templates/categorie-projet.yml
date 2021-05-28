@@ -13,3 +13,5 @@ fields:
     required: false
   label: Id
   description: Identifie la catégorie. Doit donc être unique, en minuscule, sans accent.
+pages:
+- data/_project-categories/graphisme.md
