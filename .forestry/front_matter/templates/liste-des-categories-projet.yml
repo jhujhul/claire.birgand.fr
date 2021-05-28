@@ -1,4 +1,12 @@
 ---
 label: Liste des catégories (projet)
 hide_body: true
-fields: []
+fields:
+- name: categories
+  type: blocks
+  label: Catégories (projet)
+  template_types:
+  - categorie-projet
+  config:
+    min: 
+    max: 
