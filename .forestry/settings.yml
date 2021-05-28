@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/config.yaml
   label: Config
-  match: "**/*"
 - type: directory
   path: data/_projectCategories
   label: Catégories (projet)

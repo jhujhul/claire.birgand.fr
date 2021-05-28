@@ -1,11 +1,8 @@
 ---
 authors:
-  John: name = "John Doe"
-    image = "/uploads/2017/01/01/john.jpg"
+  John: name = "John Doe" image = "/uploads/2017/01/01/john.jpg"
 categories:
-  - id: "Lettering"
-    name: "lettering"
-  - id: "Graphisme"
-    name: "graphisme"
----
-
+- id: lettering
+  name: Lettering
+- id: Graphisme
+  name: graphisme
