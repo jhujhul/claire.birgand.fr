@@ -1,3 +1,17 @@
 {
-  "email": "claire.birgand@outlook.fr"
+  "email": "claire.birgand@outlook.fr",
+  "projectCategories": [
+    {
+      "name": "Design",
+      "id": "design"
+    },
+    {
+      "name": "Lettering",
+      "id": "lettering"
+    },
+    {
+      "name": "Graphisme",
+      "id": "graphisme"
+    }
+  ]
 }
