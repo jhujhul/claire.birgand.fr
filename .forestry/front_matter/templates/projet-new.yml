@@ -2,41 +2,43 @@
 label: Projet
 hide_body: true
 fields:
-  - name: title
-    type: text
-    config:
-      required: true
-    label: Titre
-  - name: mainImage
-    type: file
-    config:
-      maxSize: 64
-    label: Image principale
-  - name: sections
-    type: blocks
-    label: Sections
-    template_types:
-      - section
-    config:
-      min: 0
-      max: 10
-  - name: featured
-    type: boolean
-    label: Sur la page d'accueil
-    default: false
-  - name: categories
-    type: list
-    config:
-      source:
-        type: custom
-      options:
-        - "Scott Gallant"
-        - "Jordan Patterson"
-    label: Catégories
+- name: title
+  type: text
+  config:
+    required: true
+  label: Titre
+- name: mainImage
+  type: file
+  config:
+    maxSize: 64
+  label: Image principale
+- name: sections
+  type: blocks
+  label: Sections
+  template_types:
+  - section
+  config:
+    min: 0
+    max: 10
+- name: featured
+  type: boolean
+  label: Sur la page d'accueil
+  default: false
+- name: categories
+  type: list
+  config:
+    source:
+      type: simple
+    options:
+    - Scott Gallant
+    - Jordan Patterson
+    - Lettering
+    use_select: true
+  label: Catégories
 pages:
-  - data/_projects/blot-immobilier.md
-  - data/_projects/deuxieme-test.md
-  - data/_projects/makeme.md
-  - data/_projects/projet-sans-section-ni-image.md
-  - data/_projects/rennes-metropole-handball.md
-  - data/_projects/vtt-loyat.md
+- data/_projects/blot-immobilier.md
+- data/_projects/deuxieme-test.md
+- data/_projects/makeme.md
+- data/_projects/projet-sans-section-ni-image.md
+- data/_projects/rennes-metropole-handball.md
+- data/_projects/vtt-loyat.md
