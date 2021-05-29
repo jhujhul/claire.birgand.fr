@@ -1,5 +1,0 @@
----
-name: Graphisme
-id: graphisme
-
----

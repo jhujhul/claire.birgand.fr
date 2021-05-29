@@ -1,23 +1,20 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { FunctionComponent } from "react";
-
-const PATHNAME = "/portfolio";
+import { Category } from "../types";
 
 interface Props {
-  name: string;
-  filter?: string;
+  category: Category;
 }
 const PortfolioFilter: FunctionComponent<Props> = (props) => {
-  const { name, filter } = props;
+  const { category } = props;
   const router = useRouter();
 
-  const href = filter ? `${PATHNAME}?filter=${filter}` : PATHNAME;
-  const isActive = filter === router.query.filter;
+  const isActive = category.id === router.query.category;
 
   return (
     <li>
-      <Link href={href}>
+      <Link href={`/portfolio/${category.id}`}>
         <a className="relative inline-block font-mono text-4xl">
           {isActive && (
             <span
@@ -25,7 +22,7 @@ const PortfolioFilter: FunctionComponent<Props> = (props) => {
               className="absolute inset-0 mt-3 mb-1 bg-alien"
             ></span>
           )}
-          <span className="relative">{name}</span>
+          <span className="relative">{category.name}</span>
         </a>
       </Link>
     </li>

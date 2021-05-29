@@ -7,6 +7,7 @@ export interface ProjectFrontMatter {
   mainImage: string;
   sections: ProjectSection[];
   featured: boolean;
+  categories: string[];
 }
 
 interface ProjectSection {
@@ -23,3 +24,12 @@ interface TestimonialFrontMatter {
   profession: string;
   image: string;
 }
+
+export interface Category {
+  id: string;
+  name: string;
+}
+export const CATEGORY_ALL = {
+  id: "all",
+  name: "Tout",
+};

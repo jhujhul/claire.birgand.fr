@@ -15,7 +15,7 @@ const links = [
   // },
   {
     name: "Portfolio",
-    href: "/portfolio",
+    href: "/portfolio/all",
   },
   // {
   //   name: "Contact",

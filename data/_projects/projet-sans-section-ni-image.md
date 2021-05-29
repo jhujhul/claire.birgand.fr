@@ -1,7 +1,7 @@
 ---
 title: Projet sans section ni image
-mainImage: ''
+mainImage: ""
 sections: []
 featured: false
-
+categories: []
 ---

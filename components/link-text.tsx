@@ -11,7 +11,7 @@ const LinkText: FunctionComponent<LinkTextProps> = (props) => {
   const { href, name } = props;
   const router = useRouter();
 
-  const isActive = router.pathname === href;
+  const isActive = router.asPath === href;
   const className = classNames(
     "font-light text-black hover:text-gray-900 text-lg leading-5 uppercase",
     { "border-b border-black": isActive }

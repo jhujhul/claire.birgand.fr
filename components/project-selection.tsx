@@ -27,9 +27,11 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
           />
         }
       />
-      <ProjectList projects={projects} />
+      <div className="mb-4">
+        <ProjectList projects={projects} />
+      </div>
       <div className="text-center">
-        <Link href="/portfolio">
+        <Link href="/portfolio/all">
           <a className="text-alien">
             <span className="font-extralight text-lg leading-5">
               Voir toutes mes
