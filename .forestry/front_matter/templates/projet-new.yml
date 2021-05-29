@@ -24,6 +24,17 @@ fields:
   type: boolean
   label: Sur la page d'accueil
   default: false
+- name: categories
+  type: list
+  config:
+    source:
+      type: simple
+    options:
+    - Lettering
+    - Graphisme
+    - Design
+    use_select: true
+  label: Catégories
 pages:
 - data/_projects/blot-immobilier.md
 - data/_projects/deuxieme-test.md

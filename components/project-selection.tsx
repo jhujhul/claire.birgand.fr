@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FunctionComponent } from "react";
 
 import { Project } from "../types";
@@ -26,15 +27,19 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
           />
         }
       />
-      <ProjectList projects={projects} />
-      {/* <div className="text-center">
-        <a href="#" className="text-alien">
-          <span className="font-extralight text-lg leading-5">
-            Voir toutes mes
-          </span>
-          <span className="font-mono text-2xl leading-7"> réalisations</span>
-        </a>
-      </div> */}
+      <div className="mb-4">
+        <ProjectList projects={projects} />
+      </div>
+      <div className="text-center">
+        <Link href="/portfolio/all">
+          <a className="text-alien">
+            <span className="font-extralight text-lg leading-5">
+              Voir toutes mes
+            </span>
+            <span className="font-mono text-2xl leading-7"> réalisations</span>
+          </a>
+        </Link>
+      </div>
     </HomeSection>
   );
 };

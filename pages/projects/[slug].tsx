@@ -28,7 +28,7 @@ const ProjectComponent: FunctionComponent<Props> = (props) => {
         </div>
         {project.sections.map((section) => {
           return (
-            <div>
+            <div key={section.title}>
               <div>{section.title}</div>
               <div>{section.description}</div>
 

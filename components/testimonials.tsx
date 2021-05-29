@@ -6,6 +6,7 @@ import { Testimonial } from "../types";
 import HomeSection from "./home-section";
 import HomeSectionTitle from "./home-section-title";
 import TestimonialComponent from "./testimonial";
+import WorkTogether from "./work-together";
 
 interface Props {
   testimonials: Testimonial[];
@@ -51,12 +52,9 @@ const Testimonials: FunctionComponent<Props> = (props) => {
           ))}
         </Carousel>
       </div>
-      <h2 className="text-center text-4xl leading-snug mb-10 md:mb-20">
-        <span className="font-light">Alors, on travaille </span>
-        <span className="font-bold text-alien bg-darkGray">
-          &nbsp;ensemble ?&nbsp;
-        </span>
-      </h2>
+      <div className="mb-10 md:mb-20">
+        <WorkTogether />
+      </div>
     </HomeSection>
   );
 };

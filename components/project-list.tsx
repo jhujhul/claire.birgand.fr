@@ -1,17 +1,17 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FunctionComponent } from "react";
 
 import { Project } from "../types";
 
 interface Props {
   projects: Project[];
+  descriptionColor?: string;
 }
 const ProjectList: FunctionComponent<Props> = (props) => {
-  const { projects } = props;
+  const { projects, descriptionColor = "text-white" } = props;
 
   return (
-    <div className="md:grid md:grid-cols-3 md:gap-4 mb-4">
+    <div className="md:grid md:grid-cols-3 md:gap-4">
       {projects.map((project) => {
         const { title, slug, mainImage } = project;
 
@@ -32,8 +32,12 @@ const ProjectList: FunctionComponent<Props> = (props) => {
                 />
               )}
             </div>
-            <p className="text-white italic text-center uppercase">{title}</p>
-            <p className="text-white italic text-center">Les réalisations</p>
+            <p className={`${descriptionColor} italic text-center uppercase`}>
+              {title}
+            </p>
+            <p className={`${descriptionColor} italic text-center`}>
+              Les réalisations
+            </p>
             {/* </a>
             </Link> */}
           </div>

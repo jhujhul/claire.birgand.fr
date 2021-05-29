@@ -1,7 +1,13 @@
 import { promises as fs } from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { Project, ProjectFrontMatter, Testimonial } from "../types";
+import {
+  Category,
+  CATEGORY_ALL,
+  Project,
+  ProjectFrontMatter,
+  Testimonial,
+} from "../types";
 
 const projectsDirectory = path.join(process.cwd(), "data/_projects");
 const testimonialsDirectory = path.join(process.cwd(), "data/_testimonials");
@@ -26,9 +32,11 @@ export async function getProjectBySlug(slug: string): Promise<Project> {
 
 interface GetAllProjectsInput {
   onlyFeatured: boolean;
+  categoryId?: string;
 }
 export async function getAllProjects({
   onlyFeatured,
+  categoryId,
 }: GetAllProjectsInput): Promise<Project[]> {
   const filenames = await fs.readdir(projectsDirectory);
 
@@ -39,7 +47,15 @@ export async function getAllProjects({
 
   const projects = await Promise.all(projectPromises);
 
-  return projects.filter((project) => !onlyFeatured || project.featured);
+  return projects.filter(
+    (project) =>
+      (!onlyFeatured || project.featured) &&
+      (!categoryId ||
+        categoryId === CATEGORY_ALL.id ||
+        project.categories.some(
+          (category) => category.toLocaleLowerCase() === categoryId
+        ))
+  );
 }
 
 async function getTestimonial(filename: string): Promise<Testimonial> {
@@ -60,4 +76,20 @@ export async function getAllTestimonials(): Promise<Testimonial[]> {
   });
 
   return await Promise.all(testimonialPromises);
+}
+
+function onlyUnique(value: string, index: number, self: string[]) {
+  return self.indexOf(value) === index;
+}
+export async function getProjectCategories(): Promise<Category[]> {
+  const projects = await getAllProjects({ onlyFeatured: false });
+
+  return projects
+    .map((project) => project.categories)
+    .flat()
+    .filter(onlyUnique)
+    .map((categoryName) => ({
+      id: categoryName.toLocaleLowerCase(),
+      name: categoryName,
+    }));
 }

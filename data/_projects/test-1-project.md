@@ -14,5 +14,7 @@ sections:
   - "/cms/img_2823.jpg"
 mainImage: "/cms/telechargement.jpeg"
 featured: false
+categories:
+- Design
 
 ---
