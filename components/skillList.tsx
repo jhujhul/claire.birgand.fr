@@ -7,12 +7,13 @@ const SkillList: FunctionComponent = () => {
     <div className="mt-8 flex flex-col items-center md:flex-row md:justify-around md:items-start md:mb-20">
       <Skill name="Graphisme">
         <p>
-          <span className="font-bold">Print :</span> Affiche, flyer, plaquette,
-          carte de visite, carton d’invitation, menu, faire-part, vitrophanie...
+          <span className="font-bold">Print :</span> je conçois des affiches,
+          flyers, plaquettes, cartes de visite, cartons d'invitation, menus,
+          faire-part, vitrophanies...
         </p>
         <p>
-          <span className="font-bold">Web :</span> newsletter, visuel réseaux
-          sociaux, powerpoint...
+          <span className="font-bold">Web :</span> je réalise des newsletters,
+          visuels réseaux sociaux, powerpoints...
         </p>
       </Skill>
       <Skill name="Lettering">
@@ -23,7 +24,7 @@ const SkillList: FunctionComponent = () => {
       </Skill>
       <Skill name="Design">
         <p>
-          Je réalisé des prototypes de goodies (badge, figurine, porte-clé...),
+          J'élabore des prototypes de goodies (badge, figurine, porte-clé...),
           décorations en bois, platisque ou encore mousse.
         </p>
       </Skill>

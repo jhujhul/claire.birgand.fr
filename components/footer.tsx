@@ -1,17 +1,26 @@
 import Image from "next/image";
+import { FunctionComponent } from "react";
 
 import Container from "./container";
 import FooterItem from "./footer-item";
+import config from "../data/config.json";
 
-const Footer = () => {
+const { email, ville, telephone } = config;
+
+let telephoneString = "";
+for (let i = 0; i < 5; i++) {
+  telephoneString += telephone.slice(i, i + 2) + " ";
+}
+
+const Footer: FunctionComponent = () => {
   return (
     <footer className="bg-darkGray">
       <Container>
         <div className="flex flex-col md:flex-row md:justify-between py-6 md:py-3 text-white ">
           <div className="flex flex-col md:flex-row">
-            <span className="mr-7 mb-4">
+            <span className="md:mr-7 mb-4 md:mb-0">
               <FooterItem
-                title="Rennes"
+                title={ville}
                 icon={
                   <Image
                     src="/assets/geoloc.png"
@@ -22,9 +31,9 @@ const Footer = () => {
                 }
               />
             </span>
-            <a className="mr-7 mb-4" href="mailto:claire.birgand@outlook.fr">
+            <a className="md:mr-7 mb-4 md:mb-0" href={`mailto:${email}`}>
               <FooterItem
-                title="claire.birgand@outlook.fr"
+                title={email}
                 icon={
                   <Image
                     src="/assets/asterisque-anis-small.png"
@@ -35,9 +44,9 @@ const Footer = () => {
                 }
               />
             </a>
-            <a className="mb-4" href="tel:0632000112">
+            <a className="mb-4 md:mb-0" href={`tel:${telephone}`}>
               <FooterItem
-                title="06 32 00 01 12"
+                title={telephoneString}
                 icon={
                   <Image
                     src="/assets/asterisque-anis-small.png"

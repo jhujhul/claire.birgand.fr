@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
 import Carousel from "nuka-carousel";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
 import { Testimonial } from "../types";
 import HomeSection from "./home-section";
@@ -14,13 +15,6 @@ interface Props {
 const Testimonials: FunctionComponent<Props> = (props) => {
   const { testimonials } = props;
 
-  // const test: Testimonial = {
-  //   quote:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-  //   name: "Martin ALLIO",
-  //   profession: "Business developer chez crotte de bique land",
-  //   image: "",
-  // };
   return (
     <HomeSection backgroundColor="bg-white">
       <HomeSectionTitle
@@ -41,8 +35,16 @@ const Testimonials: FunctionComponent<Props> = (props) => {
           autoplayInterval={5000}
           wrapAround={true}
           renderBottomCenterControls={null}
-          renderCenterLeftControls={null}
-          renderCenterRightControls={null}
+          renderCenterLeftControls={({ previousSlide }) => (
+            <button onClick={previousSlide} className="hidden md:inline-block">
+              <ChevronLeftIcon className="h-6 w-6" />
+            </button>
+          )}
+          renderCenterRightControls={({ nextSlide }) => (
+            <button onClick={nextSlide} className="hidden md:inline-block">
+              <ChevronRightIcon className="h-6 w-6" />
+            </button>
+          )}
         >
           {testimonials.map((testimonial) => (
             <TestimonialComponent

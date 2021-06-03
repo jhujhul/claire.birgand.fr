@@ -33,7 +33,7 @@ const TestimonialComponent: FunctionComponent<Props> = (props) => {
           <p>{quote}</p>
         </blockquote>
         <figcaption>
-          <p className="relative inline-block font-mono text-xl">
+          <p className="relative inline-block font-mono text-3xl">
             <span
               aria-hidden="true"
               className="absolute inset-0 mt-3 mb-1 bg-alien"
