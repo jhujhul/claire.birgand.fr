@@ -20,7 +20,7 @@ const TestimonialComponent: FunctionComponent<Props> = (props) => {
           </div>
         </div>
       )}
-      <div className="md:w-2/3 md:pt-7">
+      <div className="md:w-2/3 flex flex-col justify-center">
         <div className="mb-4">
           <Image
             src="/assets/guillemets.png"
