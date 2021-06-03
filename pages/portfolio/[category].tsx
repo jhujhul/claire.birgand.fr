@@ -21,7 +21,7 @@ const Portfolio: FunctionComponent<Props> = (props) => {
         <title>Portfolio</title>
       </Head>
       <Container>
-        <div className="flex justify-center mb-7">
+        <div className="flex justify-center mb-8">
           <ul className="flex justify-center flex-wrap gap-x-9">
             <PortfolioFilter category={CATEGORY_ALL} />
             {categories.map((category) => (
