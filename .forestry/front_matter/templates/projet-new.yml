@@ -37,6 +37,7 @@ fields:
   label: Catégories
 pages:
 - data/_projects/blot-immobilier.md
+- data/_projects/bobhouse-production.md
 - data/_projects/deuxieme-test.md
 - data/_projects/makeme.md
 - data/_projects/projet-sans-section-ni-image.md
