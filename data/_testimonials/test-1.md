@@ -4,6 +4,6 @@ profession: Bogoss
 quote: |-
   Quelle journée mes amis, quelle journée !!
   Incroyable, amazing, waouh !!
-image: ''
+image: "/cms/giphy_panda_3nb.gif"
 
 ---
