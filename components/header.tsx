@@ -7,6 +7,9 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import LinkIcon from "./link-icon";
 import LinkText from "./link-text";
 import Container from "./container";
+import config from "../data/config.json";
+
+const { email, linkedin } = config;
 
 const links = [
   // {
@@ -66,8 +69,8 @@ const Header = () => {
                 <LinkText key={href} href={href} name={name} />
               ))}
             </div>
-            <div className="md:space-x-1">
-              <LinkIcon name="Mail">
+            <div className="md:space-x-1 flex">
+              <LinkIcon name="Mail" href={`mailto:${email}`}>
                 <svg
                   className="h-4 w-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,9 +86,9 @@ const Header = () => {
                   />
                 </svg>
               </LinkIcon>
-              <LinkIcon name="Linkedin">
+              <LinkIcon name="Linkedin" href={linkedin}>
                 <svg
-                  className="h-4 w-4"
+                  className="h-3 w-3"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

@@ -11,12 +11,12 @@ const ProjectList: FunctionComponent<Props> = (props) => {
   const { projects, descriptionColor = "text-white" } = props;
 
   return (
-    <div className="md:grid md:grid-cols-3 md:gap-4">
+    <div className="md:grid md:grid-cols-3 md:gap-x-8">
       {projects.map((project) => {
         const { title, slug, mainImage } = project;
 
         return (
-          <div className="mb-2" key={slug}>
+          <div className="mb-4" key={slug}>
             {/* <Link as={`/projects/${slug}`} href="/projects/[slug]">
               <a> */}
             <div
@@ -32,10 +32,14 @@ const ProjectList: FunctionComponent<Props> = (props) => {
                 />
               )}
             </div>
-            <p className={`${descriptionColor} italic text-center uppercase`}>
+            <p
+              className={`${descriptionColor} italic text-center uppercase line leading-tight`}
+            >
               {title}
             </p>
-            <p className={`${descriptionColor} italic text-center`}>
+            <p
+              className={`${descriptionColor} italic text-center leading-tight`}
+            >
               Les réalisations
             </p>
             {/* </a>

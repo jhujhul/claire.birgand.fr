@@ -9,9 +9,10 @@ const Wishes: FunctionComponent = () => {
     const options = {
       strings: [
         "une carte de visite ?",
-        "un costume de l'espace ?",
-        "de l'eau bien fraiche ?",
-        "un gros calin ?",
+        "un flyer ?",
+        "un logo ?",
+        "un goodie ?",
+        "un visuel pour LinkedIn ?",
       ],
       typeSpeed: 20,
       backSpeed: 20,

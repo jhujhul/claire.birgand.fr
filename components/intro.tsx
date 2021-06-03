@@ -13,9 +13,9 @@ const Intro: FunctionComponent = () => {
         <p>Vous êtes au bon endroit !</p>
         <p>
           Je vous accompagne dans la réalisation de vos projets graphiques en
-          tout genre
+          tout genre,
         </p>
-        <p>(peu importe le format ou le secteur d’activité).</p>
+        <p>quelque soit le format ou le secteur d’activité.</p>
         <SkillList />
       </Container>
     </section>

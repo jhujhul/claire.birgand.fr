@@ -10,7 +10,7 @@ const FooterItem: FunctionComponent<Props> = (props) => {
   return (
     <span className="flex items-center">
       <div className="flex items-center justify-center w-4">{icon}</div>
-      <span className="ml-2 uppercase">{title}</span>
+      <span className="ml-2">{title}</span>
     </span>
   );
 };
