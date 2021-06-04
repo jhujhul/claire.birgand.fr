@@ -1,6 +1,6 @@
 ---
 title: Poupougne le globe trotter
-mainImage: "/cms/pouopougne.jpg"
+mainImage: "/cms/pouopougne-2.jpg"
 sections: []
 featured: false
 categories:
