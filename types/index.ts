@@ -4,6 +4,7 @@ export type Project = {
 
 export interface ProjectFrontMatter {
   title: string;
+  subtitle?: string;
   mainImage: string;
   sections: ProjectSection[];
   featured: boolean;

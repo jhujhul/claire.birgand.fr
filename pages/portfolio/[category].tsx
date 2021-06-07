@@ -22,10 +22,14 @@ const Portfolio: FunctionComponent<Props> = (props) => {
       </Head>
       <Container>
         <div className="flex justify-center mb-7">
-          <ul className="flex justify-center flex-wrap gap-x-9">
-            <PortfolioFilter category={CATEGORY_ALL} />
+          <ul className="flex justify-center flex-wrap">
+            <div className="mx-4">
+              <PortfolioFilter category={CATEGORY_ALL} />
+            </div>
             {categories.map((category) => (
-              <PortfolioFilter key={category.id} category={category} />
+              <div key={category.id} className="mx-4">
+                <PortfolioFilter category={category} />
+              </div>
             ))}
           </ul>
         </div>
