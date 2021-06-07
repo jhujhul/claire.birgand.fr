@@ -1,0 +1,11 @@
+.link {
+  background: linear-gradient(to top, black 0% 1px, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  background-position: center;
+  transition: background-size 0.3s;
+}
+
+.link:hover,
+.link-active {
+  background-size: 100% 100%;
+}
