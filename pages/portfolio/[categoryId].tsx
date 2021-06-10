@@ -11,6 +11,7 @@ import { Category, CATEGORY_ALL, Project } from "../../types";
 interface Props {
   projects: Project[];
   categories: Category[];
+  currentCategory: Category;
 }
 const Portfolio: FunctionComponent<Props> = (props) => {
   const { projects, categories } = props;
@@ -18,7 +19,9 @@ const Portfolio: FunctionComponent<Props> = (props) => {
   return (
     <Layout>
       <Head>
-        <title>Portfolio</title>
+        <title>
+          Portfolio : Claire Birgand : graphisme, design, lettering à Rennes
+        </title>
       </Head>
       <Container>
         <div className="flex justify-center mb-7">
@@ -48,32 +51,36 @@ export default Portfolio;
 
 type Params = {
   params: {
-    category: string;
+    categoryId: string;
   };
 };
 export const getStaticProps = async ({ params }: Params) => {
+  const { categoryId } = params;
   const projects = await getAllProjects({
     onlyFeatured: false,
-    categoryId: params.category,
+    categoryId,
   });
   const categories = await getProjectCategories();
+  const currentCategory = [...categories, CATEGORY_ALL].find(
+    (c) => c.id === categoryId
+  ) as Category;
 
   return {
-    props: { projects, categories },
+    props: { projects, categories, currentCategory },
   };
 };
 
 export async function getStaticPaths() {
   const categories = await getProjectCategories();
 
+  const paths = [...categories, CATEGORY_ALL].map((category) => ({
+    params: {
+      categoryId: category.id,
+    },
+  }));
+
   return {
-    paths: [...categories, CATEGORY_ALL].map((category) => {
-      return {
-        params: {
-          category: category.id,
-        },
-      };
-    }),
+    paths,
     fallback: false,
   };
 }

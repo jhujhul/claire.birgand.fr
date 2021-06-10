@@ -10,7 +10,7 @@ const PortfolioFilter: FunctionComponent<Props> = (props) => {
   const { category } = props;
   const router = useRouter();
 
-  const isActive = category.id === router.query.category;
+  const isActive = category.id === router.query.categoryId;
 
   return (
     <li>

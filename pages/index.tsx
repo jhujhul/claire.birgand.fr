@@ -18,7 +18,7 @@ const Index: FunctionComponent<Props> = (props) => {
   return (
     <Layout>
       <Head>
-        <title>Intro</title>
+        <title>Accueil : Claire Birgand : graphiste freelance à Rennes</title>
       </Head>
       <Intro />
       <ProjectSelection projects={projects} />

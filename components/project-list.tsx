@@ -38,7 +38,7 @@ const ProjectList: FunctionComponent<Props> = (props) => {
               )}
             </div>
             <p
-              className={`${descriptionColor} italic text-center uppercase line leading-tight`}
+              className={`${descriptionColor} font-medium text-center uppercase line leading-tight`}
             >
               {title}
             </p>

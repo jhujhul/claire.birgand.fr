@@ -29,7 +29,7 @@ const Testimonials: FunctionComponent<Props> = (props) => {
           />
         }
       />
-      <div className="mb-10 md:mb-20">
+      <div className="mt-4 mb-10 md:mb-20">
         <Carousel
           autoplay={true}
           autoplayInterval={5000}
