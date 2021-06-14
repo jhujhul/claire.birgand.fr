@@ -19,7 +19,14 @@ const TestimonialComponent: FunctionComponent<Props> = (props) => {
             className="relative bg-gray-400 mr-10"
             style={{ width: "360px", height: "360px" }}
           >
-            {image && <Image src={image} layout="fill" objectFit="cover" />}
+            {image && (
+              <Image
+                src={image}
+                layout="fill"
+                objectFit="cover"
+                alt={`${name} - ${profession}`}
+              />
+            )}
           </div>
         </div>
       )}

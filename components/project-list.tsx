@@ -34,6 +34,7 @@ const ProjectList: FunctionComponent<Props> = (props) => {
                   layout="fill"
                   objectFit="cover"
                   className="hover:opacity-75 transition-opacity duration-300"
+                  alt={`${title} - ${subtitle}`}
                 />
               )}
             </div>
