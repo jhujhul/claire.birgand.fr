@@ -31,17 +31,24 @@ const Testimonials: FunctionComponent<Props> = (props) => {
       />
       <div className="mt-4 mb-10 md:mb-20">
         <Carousel
-          autoplay={true}
           autoplayInterval={5000}
           wrapAround={true}
           renderBottomCenterControls={null}
           renderCenterLeftControls={({ previousSlide }) => (
-            <button onClick={previousSlide} className="hidden md:inline-block">
+            <button
+              onClick={previousSlide}
+              className="hidden md:inline-block"
+              aria-label="Témoignage précédent"
+            >
               <ChevronLeftIcon className="h-6 w-6" />
             </button>
           )}
           renderCenterRightControls={({ nextSlide }) => (
-            <button onClick={nextSlide} className="hidden md:inline-block">
+            <button
+              onClick={nextSlide}
+              className="hidden md:inline-block"
+              aria-label="Témoignage suivant"
+            >
               <ChevronRightIcon className="h-6 w-6" />
             </button>
           )}
