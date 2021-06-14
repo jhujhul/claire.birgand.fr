@@ -36,11 +36,6 @@ const Meta = () => {
         href="https://fonts.googleapis.com/css2?family=Mansalva&family=Raleway:wght@200;300;400;500;700&display=swap&display=swap"
         rel="stylesheet"
       />
-      <meta
-        name="description"
-        content={`A statically generated blog example using Next.js.`}
-      />
-      {/* <meta property="og:image" content={HOME_OG_IMAGE_URL} /> */}
     </Head>
   );
 };

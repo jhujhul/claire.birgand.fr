@@ -19,6 +19,10 @@ const Index: FunctionComponent<Props> = (props) => {
     <Layout>
       <Head>
         <title>Accueil : Claire Birgand : graphiste freelance à Rennes</title>
+        <meta
+          name="description"
+          content={`Accueil : Claire Birgand : graphiste freelance à Rennes`}
+        />
       </Head>
       <Intro />
       <ProjectSelection projects={projects} />

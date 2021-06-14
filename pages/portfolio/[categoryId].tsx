@@ -22,6 +22,10 @@ const Portfolio: FunctionComponent<Props> = (props) => {
         <title>
           Portfolio : Claire Birgand : graphisme, design, lettering à Rennes
         </title>
+        <meta
+          name="description"
+          content={`Portfolio : Claire Birgand : graphisme, design, lettering à Rennes`}
+        />
       </Head>
       <Container>
         <div className="flex justify-center mb-7">
