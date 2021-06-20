@@ -60,7 +60,7 @@ const Footer: FunctionComponent = () => {
             </a>
           </div>
           <Link href="/mentions-legales">
-            <div className="mt-4 md:mt-0">© Claire Birgand</div>
+            <div className="mt-4 md:mt-0 cursor-pointer">© Claire Birgand</div>
           </Link>
         </div>
       </Container>
