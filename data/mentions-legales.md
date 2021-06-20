@@ -1,39 +1,34 @@
-### Computer / Office
+---
 
-- 16" Macbook Pro (2020)
-- 31.5" LG UltraFine 32UN880
-- Logitech MX Master 3 Mouse
-- Keychron K3 (Red) Mechanical Keyboard
-- Focal XS 2.1 w/ Subwoofer
-- Autonomous SmartDesk 2
-- Autonomous ErgoChair 2
+---
+MENTIONS LÉGALES 
 
-### Coding
+IDENTITÉ
 
-- Editor: VSCode ([Extensions](https://github.com/leerob/fastfeedback/blob/master/.vscode/extensions.json))
-- Theme: Sorcerer
-- Terminal: Hyper / zsh
+Claire Birgand est une entreprise individuelle immatriculée à l’URSAFF
 
-### Audio / Video
+SIRET : **SIRET**
 
-- Sony A7III (28-50mm, 35mm f1.8)
-- Shure MV7 + Boom
-- Elgato Camlink
-- Logitech C920
-- Elgato Key Light (x2)
-- Elgato Master Mount
+**adresse mail**
 
-### Music
+32 cours de Bilbao
 
-- Yamaha P-105 Piano
-- Roland TD-20 V-Drums
-- Roland AC-60
-- Shure SM58
-- Martin Acoustic Guitar (X-Series)
+35200 RENNES
 
-### Other Tech
+06-32-00-01-12
 
-- Apple Airpods Pro
-- Apple Watch
-- Kindle
-- Tesla Model 3 😍
+Éditeur du site : Claire Birgand
+
+HÉBERGEMENT
+
+Ce site web est hébergé par **hébergeur**
+
+Siret : **Siret hébergeur**
+
+**Adresse postale hébergeur**
+
+SARL au capital de **€**
+
+CRÉDITS IMAGES
+
+Les images de ce site crées par Claire Birgand restent sa propriété et ne sont pas libre de droit pour toute utilisation commerciale. Pour toute utilisation non-commerciale, merci de me contacter.

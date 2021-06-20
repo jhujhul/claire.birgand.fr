@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/mentions-legales.md
   label: Mentions légales
-  match: "**/*"
 - type: directory
   path: data/_testimonials
   label: Témoignages
