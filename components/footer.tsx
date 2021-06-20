@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FunctionComponent } from "react";
 
 import Container from "./container";
@@ -58,7 +59,9 @@ const Footer: FunctionComponent = () => {
               />
             </a>
           </div>
-          <div className="mt-4 md:mt-0">© Claire Birgand</div>
+          <Link href="/mentions-legales">
+            <div className="mt-4 md:mt-0">© Claire Birgand</div>
+          </Link>
         </div>
       </Container>
     </footer>

@@ -1,7 +1,5 @@
 ---
-
 ---
-# MENTIONS LÉGALES 
 
 ## IDENTITÉ
 
