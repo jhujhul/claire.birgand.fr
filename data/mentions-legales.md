@@ -1,9 +1,9 @@
 ---
 
 ---
-MENTIONS LÉGALES 
+# MENTIONS LÉGALES 
 
-IDENTITÉ
+## IDENTITÉ
 
 Claire Birgand est une entreprise individuelle immatriculée à l’URSAFF
 
@@ -19,7 +19,7 @@ SIRET : **SIRET**
 
 Éditeur du site : Claire Birgand
 
-HÉBERGEMENT
+## HÉBERGEMENT
 
 Ce site web est hébergé par **hébergeur**
 
@@ -29,6 +29,6 @@ Siret : **Siret hébergeur**
 
 SARL au capital de **€**
 
-CRÉDITS IMAGES
+## CRÉDITS IMAGES
 
 Les images de ce site crées par Claire Birgand restent sa propriété et ne sont pas libre de droit pour toute utilisation commerciale. Pour toute utilisation non-commerciale, merci de me contacter.
