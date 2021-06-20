@@ -1,7 +1,3 @@
----
-title: "Uses"
----
-
 ### Computer / Office
 
 - 16" Macbook Pro (2020)
