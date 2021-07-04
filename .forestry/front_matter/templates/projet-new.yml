@@ -41,6 +41,7 @@ fields:
     use_select: true
   label: Catégories
 pages:
+- data/_projects/association-francaise-de-l-eczema.md
 - data/_projects/blot-immobilier.md
 - data/_projects/bobhouse-production.md
 - data/_projects/labfab.md
