@@ -5,6 +5,6 @@ sections: []
 featured: true
 categories:
 - Graphisme
-subtitle: ''
+subtitle: Affiches - Visuels réseaux sociaux - Motion Design - Powerpoints - Newsletters
 
 ---
