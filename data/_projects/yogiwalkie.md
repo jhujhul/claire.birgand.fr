@@ -5,6 +5,6 @@ sections: []
 featured: false
 categories:
 - Graphisme
-subtitle: Prout prout caca prout !
+subtitle: Logo
 
 ---
