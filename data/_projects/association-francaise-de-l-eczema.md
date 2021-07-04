@@ -1,6 +1,6 @@
 ---
 title: Association Française de l'Eczéma
-subtitle: ''
+subtitle: Affiches
 mainImage: "/cms/eczema.jpg"
 sections: []
 featured: false
