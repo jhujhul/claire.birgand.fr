@@ -5,5 +5,6 @@ sections: []
 featured: true
 categories:
 - Lettering
+subtitle: Logo lettering
 
 ---
