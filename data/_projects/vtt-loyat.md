@@ -4,6 +4,7 @@ subtitle: ''
 mainImage: "/cms/vtt.jpg"
 sections: []
 featured: false
-categories: []
+categories:
+- Graphisme
 
 ---
