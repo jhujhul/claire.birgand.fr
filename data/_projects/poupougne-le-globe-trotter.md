@@ -5,6 +5,6 @@ sections: []
 featured: false
 categories:
 - Graphisme
-subtitle: ''
+subtitle: Logo / Flyers / Presse
 
 ---
