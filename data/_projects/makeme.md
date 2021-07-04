@@ -5,5 +5,6 @@ sections: []
 featured: true
 categories:
 - Design
+subtitle: Badges / Goodies / Décorations
 
 ---
