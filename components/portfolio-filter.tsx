@@ -15,7 +15,7 @@ const PortfolioFilter: FunctionComponent<Props> = (props) => {
   return (
     <li>
       <Link href={`/portfolio/${category.id}`}>
-        <a className="relative inline-block font-mono text-4xl">
+        <a className="relative inline-block font-mono text-3xl">
           {isActive && (
             <span
               aria-hidden="true"

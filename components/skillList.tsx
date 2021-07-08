@@ -19,7 +19,7 @@ const SkillList: FunctionComponent = () => {
       <Skill name="Lettering">
         <p>
           Je crée des lettrages (dessins des lettres) que ce soit pour un logo,
-          un t-shirt, une vitrine...
+          un <span className="whitespace-nowrap">t-shirt</span>, une vitrine...
         </p>
       </Skill>
       <Skill name="Design">

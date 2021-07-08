@@ -10,7 +10,7 @@ const { email, ville, telephone } = config;
 
 let telephoneString = "";
 for (let i = 0; i < 5; i++) {
-  telephoneString += telephone.slice(i, i + 2) + " ";
+  telephoneString += telephone.slice(i * 2, i * 2 + 2) + " ";
 }
 
 const Footer: FunctionComponent = () => {

@@ -28,13 +28,13 @@ const Portfolio: FunctionComponent<Props> = (props) => {
         />
       </Head>
       <Container>
-        <div className="flex justify-center mb-7">
+        <div className="flex justify-center mb-7 px-4">
           <ul className="flex justify-center flex-wrap">
             <div className="mx-4">
               <PortfolioFilter category={CATEGORY_ALL} />
             </div>
             {categories.map((category) => (
-              <div key={category.id} className="mx-4">
+              <div key={category.id} className="mx-3">
                 <PortfolioFilter category={category} />
               </div>
             ))}
