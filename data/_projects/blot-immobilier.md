@@ -6,5 +6,6 @@ featured: true
 categories:
 - Graphisme
 subtitle: Affiches / Visuels réseaux sociaux / Motion Design / Powerpoints / Newsletters
+  ...
 
 ---
