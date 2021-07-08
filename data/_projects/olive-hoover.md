@@ -5,6 +5,6 @@ sections: []
 featured: false
 categories:
 - Lettering
-subtitle: Lettering
+subtitle: Projet perso
 
 ---
