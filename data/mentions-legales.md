@@ -1,31 +1,27 @@
 ---
----
 
+---
 ## IDENTITÉ
 
-Claire Birgand est une entreprise individuelle immatriculée à l’URSAFF
-
-SIRET : **SIRET**
+Claire Birgand est une entreprise individuelle immatriculée à l’URSSAF.  
+SIRET : en cours
 
 **adresse mail**
 
-32 cours de Bilbao
-
-35200 RENNES
-
+32 cours de Bilbao 35200 RENNES  
 06-32-00-01-12
 
 Éditeur du site : Claire Birgand
 
 ## HÉBERGEMENT
 
-Ce site web est hébergé par **hébergeur**
+Vercel Inc.  
+340 S Lemon Ave #4133  
+Walnut CA 91789  
+United States  
+\+1 951-383-6898
 
-Siret : **Siret hébergeur**
-
-**Adresse postale hébergeur**
-
-SARL au capital de **€**
+clairebirgand.fr n'utilise pas de cookie. Certains services utilisés sont cependant susceptibles de collecter certaines données : [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy "https://vercel.com/legal/privacy-policy")
 
 ## CRÉDITS IMAGES
 
