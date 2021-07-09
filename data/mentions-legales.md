@@ -22,7 +22,9 @@ United States
 
 clairebirgand.fr n'utilise pas de cookie. Certains services utilisés sont cependant susceptibles de collecter certaines données : [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy "https://vercel.com/legal/privacy-policy")
 
-## CRÉDITS IMAGES
+## DROITS DE REPRODUCTION
+
+L’ensemble de ce site relève de la législation française et internationale sur le droit d’auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris les représentations iconographiques et photographiques. La reproduction de tout ou partie de ce site sur un support quel qu’il soit est formellement interdite, sauf autorisation expresse du directeur de la publication.
 
 Les images de ce site crées par Claire Birgand restent sa propriété et ne sont pas libres de droit pour toute utilisation commerciale. Pour toute utilisation non-commerciale, merci de me contacter.
 
