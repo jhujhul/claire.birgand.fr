@@ -27,5 +27,6 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- data/_testimonials/Elsa.md
 - data/_testimonials/Kakie.md
 - data/_testimonials/Vincent.md
