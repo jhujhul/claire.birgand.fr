@@ -5,7 +5,6 @@ sections: []
 featured: true
 categories:
 - Graphisme
-subtitle: Affiches / Réseaux sociaux / Roll-ups / Banderoles / Clap-claps / Textile
-  ...
+subtitle: Affiches / Roll-ups / Banderoles / Clap-claps / Textile ...
 
 ---
