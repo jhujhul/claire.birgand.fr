@@ -1,8 +1,10 @@
 ---
-name: Vincent Berthier
-profession: Président de l'association VTT Loyat
-quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+name: Vincent B.
+profession: Président LOYAT Sports Nature
+quote: |-
+  Infographiste talentueuse et disponible. Claire nous
+  surprend toujours avec des affiches originales et
+  toujours aussi belles.
 image: "/cms/giphy_vincent.gif"
 
 ---
