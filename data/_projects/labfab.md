@@ -1,7 +1,7 @@
 ---
 title: LABFAB
 subtitle: Goodies / Badges
-mainImage: ''
+mainImage: "/cms/labfab2.jpg"
 sections: []
 featured: false
 categories:
