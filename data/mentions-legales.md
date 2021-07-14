@@ -4,7 +4,7 @@
 ## IDENTITÉ
 
 Claire Birgand est une entreprise individuelle immatriculée à l’URSSAF.  
-SIRET : en cours
+SIRET : 901 145 813 00019
 
 clairebirgand@gmail.com  
 32 cours de Bilbao 35200 RENNES  
