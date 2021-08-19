@@ -16,10 +16,10 @@ const Index: FunctionComponent<Props> = (props) => {
   return (
     <Layout>
       <Head>
-        <title>Accueil : Claire Birgand : Mentions légales</title>
+        <title>Claire Birgand : Mentions légales</title>
         <meta
           name="description"
-          content={`Accueil : Claire Birgand : Mentions légales`}
+          content={`Claire Birgand : Mentions légales`}
         />
       </Head>
       <HomeSection backgroundColor="bg-white">
