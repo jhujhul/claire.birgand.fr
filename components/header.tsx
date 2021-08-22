@@ -4,10 +4,10 @@ import { useRef, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
+import config from "../data/config.json";
 import LinkIcon from "./link-icon";
 import LinkText from "./link-text";
 import Container from "./container";
-import config from "../data/config.json";
 
 const { email, linkedin } = config;
 
