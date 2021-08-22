@@ -8,6 +8,7 @@ const SkillList: FunctionComponent = () => {
       <Skill name="Graphisme">
         <p>
           <span className="font-bold">Print :</span> je conçois des affiches,
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           flyers, plaquettes, cartes de visite, cartons d'invitation, menus,
           faire-part, vitrophanies...
         </p>
@@ -24,6 +25,7 @@ const SkillList: FunctionComponent = () => {
       </Skill>
       <Skill name="Design">
         <p>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           J'élabore des prototypes de goodies (badge, figurine, porte-clé...),
           décorations en bois, platisque ou encore mousse.
         </p>
