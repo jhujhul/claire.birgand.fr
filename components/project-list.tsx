@@ -13,7 +13,12 @@ const ProjectList: FunctionComponent<Props> = (props) => {
   return (
     <div className="md:grid md:grid-cols-3 md:gap-x-8">
       {projects.map((project) => {
-        const { title, slug, mainImage } = project;
+        const {
+          title,
+          subtitle = "Les réalisations",
+          slug,
+          mainImage,
+        } = project;
 
         return (
           <div className="mb-4" key={slug}>
@@ -29,18 +34,19 @@ const ProjectList: FunctionComponent<Props> = (props) => {
                   layout="fill"
                   objectFit="cover"
                   className="hover:opacity-75 transition-opacity duration-300"
+                  alt={`${title} - ${subtitle}`}
                 />
               )}
             </div>
             <p
-              className={`${descriptionColor} italic text-center uppercase line leading-tight`}
+              className={`${descriptionColor} font-medium text-center uppercase line leading-tight`}
             >
               {title}
             </p>
             <p
               className={`${descriptionColor} italic text-center leading-tight`}
             >
-              Les réalisations
+              {subtitle}
             </p>
             {/* </a>
             </Link> */}

@@ -11,6 +11,7 @@ import { Category, CATEGORY_ALL, Project } from "../../types";
 interface Props {
   projects: Project[];
   categories: Category[];
+  currentCategory: Category;
 }
 const Portfolio: FunctionComponent<Props> = (props) => {
   const { projects, categories } = props;
@@ -18,14 +19,24 @@ const Portfolio: FunctionComponent<Props> = (props) => {
   return (
     <Layout>
       <Head>
-        <title>Portfolio</title>
+        <title>
+          Portfolio : Claire Birgand : graphisme, design, lettering à Rennes
+        </title>
+        <meta
+          name="description"
+          content={`Portfolio : Claire Birgand : graphisme, design, lettering à Rennes`}
+        />
       </Head>
       <Container>
-        <div className="flex justify-center mb-7">
-          <ul className="flex justify-center flex-wrap gap-x-9">
-            <PortfolioFilter category={CATEGORY_ALL} />
+        <div className="flex justify-center mb-7 px-4">
+          <ul className="flex justify-center flex-wrap">
+            <div className="mx-4">
+              <PortfolioFilter category={CATEGORY_ALL} />
+            </div>
             {categories.map((category) => (
-              <PortfolioFilter key={category.id} category={category} />
+              <div key={category.id} className="mx-3">
+                <PortfolioFilter category={category} />
+              </div>
             ))}
           </ul>
         </div>
@@ -44,32 +55,36 @@ export default Portfolio;
 
 type Params = {
   params: {
-    category: string;
+    categoryId: string;
   };
 };
 export const getStaticProps = async ({ params }: Params) => {
+  const { categoryId } = params;
   const projects = await getAllProjects({
     onlyFeatured: false,
-    categoryId: params.category,
+    categoryId,
   });
   const categories = await getProjectCategories();
+  const currentCategory = [...categories, CATEGORY_ALL].find(
+    (c) => c.id === categoryId
+  ) as Category;
 
   return {
-    props: { projects, categories },
+    props: { projects, categories, currentCategory },
   };
 };
 
 export async function getStaticPaths() {
   const categories = await getProjectCategories();
 
+  const paths = [...categories, CATEGORY_ALL].map((category) => ({
+    params: {
+      categoryId: category.id,
+    },
+  }));
+
   return {
-    paths: [...categories, CATEGORY_ALL].map((category) => {
-      return {
-        params: {
-          category: category.id,
-        },
-      };
-    }),
+    paths,
     fallback: false,
   };
 }

@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/mentions-legales.md
+  label: Mentions légales
 - type: directory
   path: data/_testimonials
   label: Témoignages

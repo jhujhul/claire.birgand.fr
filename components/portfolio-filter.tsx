@@ -10,12 +10,12 @@ const PortfolioFilter: FunctionComponent<Props> = (props) => {
   const { category } = props;
   const router = useRouter();
 
-  const isActive = category.id === router.query.category;
+  const isActive = category.id === router.query.categoryId;
 
   return (
     <li>
       <Link href={`/portfolio/${category.id}`}>
-        <a className="relative inline-block font-mono text-4xl">
+        <a className="relative inline-block font-mono text-3xl">
           {isActive && (
             <span
               aria-hidden="true"

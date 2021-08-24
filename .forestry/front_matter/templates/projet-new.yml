@@ -7,6 +7,11 @@ fields:
   config:
     required: true
   label: Titre
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Sous-titre
 - name: mainImage
   type: file
   config:
@@ -36,10 +41,13 @@ fields:
     use_select: true
   label: Catégories
 pages:
+- data/_projects/association-francaise-de-l-eczema.md
 - data/_projects/blot-immobilier.md
 - data/_projects/bobhouse-production.md
+- data/_projects/labfab.md
 - data/_projects/makeme.md
 - data/_projects/olive-hoover.md
+- data/_projects/point-information-jeunesse-saint-gilles.md
 - data/_projects/poupougne-le-globe-trotter.md
 - data/_projects/rennes-metropole-handball.md
 - data/_projects/rennes-monostars.md

@@ -1,6 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
 import matter from "gray-matter";
+import remark from "remark";
+import html from "remark-html";
+
 import {
   Category,
   CATEGORY_ALL,
@@ -11,6 +14,10 @@ import {
 
 const projectsDirectory = path.join(process.cwd(), "data/_projects");
 const testimonialsDirectory = path.join(process.cwd(), "data/_testimonials");
+const legalNoticeFilePAth = path.join(
+  process.cwd(),
+  "data/mentions-legales.md"
+);
 
 const getSlug = (filename: string): string => filename.replace(".md", "");
 
@@ -92,4 +99,16 @@ export async function getProjectCategories(): Promise<Category[]> {
       id: categoryName.toLocaleLowerCase(),
       name: categoryName,
     }));
+}
+
+async function markdownToHtml(markdown: string) {
+  const result = await remark().use(html).process(markdown);
+  return result.toString();
+}
+
+export async function getLegalNoticeHtml(): Promise<string> {
+  const fileContents = await fs.readFile(legalNoticeFilePAth, "utf8");
+  const { content } = matter(fileContents);
+
+  return markdownToHtml(content);
 }

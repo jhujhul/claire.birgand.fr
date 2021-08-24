@@ -12,11 +12,21 @@ const TestimonialComponent: FunctionComponent<Props> = (props) => {
   const { name, quote, image, profession } = testimonial;
 
   return (
-    <figure className="md:grid md:grid-cols-2 md:gap-5">
+    <figure className="md:grid md:grid-cols-2">
       {isMdOrLarger && (
         <div className="hidden md:flex md:justify-end w-full">
-          <div className="relative h-96 w-96 bg-gray-400">
-            {image && <Image src={image} layout="fill" objectFit="cover" />}
+          <div
+            className="relative bg-gray-400 mr-10"
+            style={{ width: "360px", height: "360px" }}
+          >
+            {image && (
+              <Image
+                src={image}
+                layout="fill"
+                objectFit="cover"
+                alt={`${name} - ${profession}`}
+              />
+            )}
           </div>
         </div>
       )}

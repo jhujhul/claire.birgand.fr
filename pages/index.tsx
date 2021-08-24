@@ -18,7 +18,11 @@ const Index: FunctionComponent<Props> = (props) => {
   return (
     <Layout>
       <Head>
-        <title>Intro</title>
+        <title>Claire Birgand : graphiste freelance à Rennes</title>
+        <meta
+          name="description"
+          content="Graphiste freelance à Rennes, je vous accompagne dans la création de vos supports de communication : logo, affiche, vitrophanie, newsletter, lettering, goodie..."
+        />
       </Head>
       <Intro />
       <ProjectSelection projects={projects} />

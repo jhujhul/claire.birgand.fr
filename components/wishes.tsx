@@ -1,19 +1,21 @@
 import { useEffect, useRef, FunctionComponent } from "react";
 import Typed from "typed.js";
 
+const wishesStrings = [
+  "une carte de visite ?",
+  "un flyer ?",
+  "un logo ?",
+  "un goodie ?",
+  "un visuel pour LinkedIn ?",
+].map((str) => "&nbsp;" + str + "&nbsp;");
+
 const Wishes: FunctionComponent = () => {
   const wishEl = useRef<HTMLElement | null>(null);
   const typed = useRef<Typed | null>(null);
 
   useEffect(() => {
     const options = {
-      strings: [
-        "une carte de visite ?",
-        "un flyer ?",
-        "un logo ?",
-        "un goodie ?",
-        "un visuel pour LinkedIn ?",
-      ],
+      strings: wishesStrings,
       typeSpeed: 20,
       backSpeed: 20,
       backDelay: 1200,

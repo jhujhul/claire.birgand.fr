@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FunctionComponent } from "react";
 
 import Container from "./container";
@@ -9,7 +10,7 @@ const { email, ville, telephone } = config;
 
 let telephoneString = "";
 for (let i = 0; i < 5; i++) {
-  telephoneString += telephone.slice(i, i + 2) + " ";
+  telephoneString += telephone.slice(i * 2, i * 2 + 2) + " ";
 }
 
 const Footer: FunctionComponent = () => {
@@ -58,7 +59,9 @@ const Footer: FunctionComponent = () => {
               />
             </a>
           </div>
-          <div className="mt-4 md:mt-0">© Claire Birgand</div>
+          <Link href="/mentions-legales">
+            <div className="mt-4 md:mt-0 cursor-pointer">© Claire Birgand</div>
+          </Link>
         </div>
       </Container>
     </footer>
