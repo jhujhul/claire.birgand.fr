@@ -4,7 +4,7 @@ mainImage: "/cms/monostars.jpg"
 sections:
 - template: section
   title: Refonte du logo
-  description: oizejriozejriojezrzer
+  description: oizejriozejriojezrzeriyuiyh
   images:
   - "/cms/monostars_portfolio.jpg"
 featured: false
