@@ -3,6 +3,7 @@ import { FunctionComponent } from "react";
 import Carousel from "nuka-carousel";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/outline";
 
+import classNames from "classnames";
 import { Testimonial } from "../types";
 import HomeSection from "./home-section";
 import HomeSectionTitle from "./home-section-title";
@@ -33,14 +34,38 @@ const Testimonials: FunctionComponent<Props> = (props) => {
         <Carousel
           autoplayInterval={5000}
           wrapAround={true}
-          renderBottomCenterControls={null}
+          renderBottomCenterControls={(props) => {
+            const { slideCount, currentSlide, goToSlide } = props;
+
+            return (
+              <div className="flex md:hidden mt-8">
+                {Array.from(Array(slideCount).keys()).map((i) => {
+                  const isActive = currentSlide === i;
+                  const className = classNames(
+                    "rounded-full bg-gray-400 w-2 h-2 cursor-pointer mr-1",
+                    {
+                      "bg-alien": isActive,
+                    }
+                  );
+
+                  return (
+                    <div
+                      key={i}
+                      className={className}
+                      onClick={() => goToSlide(i)}
+                    ></div>
+                  );
+                })}
+              </div>
+            );
+          }}
           renderCenterLeftControls={({ previousSlide }) => (
             <button
               onClick={previousSlide}
               className="hidden md:inline-block"
               aria-label="Témoignage précédent"
             >
-              <ChevronLeftIcon className="h-6 w-6" />
+              <ChevronLeftIcon className="h-6 w-6  text-gray-600" />
             </button>
           )}
           renderCenterRightControls={({ nextSlide }) => (
@@ -49,9 +74,27 @@ const Testimonials: FunctionComponent<Props> = (props) => {
               className="hidden md:inline-block"
               aria-label="Témoignage suivant"
             >
-              <ChevronRightIcon className="h-6 w-6" />
+              <ChevronRightIcon className="h-6 w-6  text-gray-600" />
             </button>
           )}
+          getControlsContainerStyles={(key) => {
+            switch (key) {
+              case "BottomCenter":
+                return {
+                  bottom: "-16px",
+                };
+              case "CenterLeft":
+                return {
+                  left: "-32px",
+                };
+              case "CenterRight":
+                return {
+                  right: "-32px",
+                };
+              default:
+                return {};
+            }
+          }}
         >
           {testimonials.map((testimonial) => (
             <TestimonialComponent
