@@ -13,6 +13,7 @@ sections:
     still in their infancy. Various versions have evolved over the years, sometimes
     by accident, sometimes on purpose (injected humour and the like).
   images:
+  - "/cms/monostars_portfolio_992x590.jpg"
   - "/cms/bobhouse.jpg"
   - "/cms/yoga.jpg"
   - "/cms/poupougne.jpg"
