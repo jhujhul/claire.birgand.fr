@@ -5,7 +5,8 @@ sections:
 - template: section
   title: Refonte du logo
   description: oizejriozejriojezrzeriyuiyh
-  images: []
+  images:
+  - "/cms/monostars_portfolio.jpg"
 featured: false
 categories:
 - Graphisme
