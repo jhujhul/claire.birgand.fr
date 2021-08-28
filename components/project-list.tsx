@@ -31,7 +31,7 @@ const ProjectList: FunctionComponent<Props> = (props) => {
                 >
                   {mainImage && (
                     <Image
-                      src={mainImage}
+                      src={mainImage.src}
                       layout="fill"
                       objectFit="cover"
                       className="hover:opacity-75 transition-opacity duration-300"

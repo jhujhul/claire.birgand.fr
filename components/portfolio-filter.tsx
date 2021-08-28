@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { FunctionComponent } from "react";
 import { Category } from "../types";
+import HighlightedText from "./highlighted-text";
 
 interface Props {
   category: Category;
@@ -15,14 +16,12 @@ const PortfolioFilter: FunctionComponent<Props> = (props) => {
   return (
     <li>
       <Link href={`/portfolio/${category.id}`}>
-        <a className="relative inline-block font-mono text-3xl">
-          {isActive && (
-            <span
-              aria-hidden="true"
-              className="absolute inset-0 mt-3 mb-1 bg-alien"
-            ></span>
+        <a className="inline-block font-mono text-3xl">
+          {isActive ? (
+            <HighlightedText>{category.name}</HighlightedText>
+          ) : (
+            category.name
           )}
-          <span className="relative">{category.name}</span>
         </a>
       </Link>
     </li>
