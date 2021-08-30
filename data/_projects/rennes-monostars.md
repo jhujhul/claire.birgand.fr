@@ -11,6 +11,7 @@ sections:
     rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
     est eligendi optio cumque nihil impedit quo minus id quod maxime '
   images:
+  - "/cms/monostars_portfolio_848x575.jpg"
   - "/cms/monostars_portfolio_992x590.jpg"
   - "/cms/monostars_portfolio.jpg"
 featured: false
