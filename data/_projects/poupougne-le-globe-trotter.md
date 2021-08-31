@@ -13,6 +13,7 @@ sections:
 - template: section
   images:
   - "/cms/flyer2017.jpg"
+  - "/cms/flyer2012.jpg"
   title: Flyers
   description: Création de flyers A5 RV pour présenter Poupougne, en français et anglais.
 - template: section
