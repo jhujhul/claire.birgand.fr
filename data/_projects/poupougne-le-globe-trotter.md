@@ -7,8 +7,8 @@ sections:
   description: Création d'un visuel pour un journal local dans le cadre de la grande
     "Poupougnade", un défilé du ridicule organisé par Poupougne dans les rues de Redon.
   images:
-  - "/cms/portfolio.jpg"
   - "/cms/poupougne_portfolio_848x575.jpg"
+  - "/cms/portfolio.jpg"
 - template: section
   title: Flyers
   description: Création de flyers de présentation
