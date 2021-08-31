@@ -22,6 +22,12 @@ sections:
   images:
   - "/cms/portfolio.jpg"
   - "/cms/poupougne_portfolio_848x575.jpg"
+- template: section
+  description: Création de visuels de couverture pour annoncer les futurs voyages
+    de Poupougne sur sa page facebook.
+  title: Visuels Facebook
+  images:
+  - "/cms/couvfb_848x575.jpg"
 featured: true
 categories:
 - Graphisme
