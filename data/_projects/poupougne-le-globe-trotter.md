@@ -10,6 +10,11 @@ sections:
     la Gay Pride.
   images:
   - "/cms/logos_848x575.jpg"
+- template: section
+  images:
+  - "/cms/flyer2017.jpg"
+  title: Flyers
+  description: Création de flyers A5 RV pour présenter Poupougne, en français et anglais.
 featured: true
 categories:
 - Graphisme
