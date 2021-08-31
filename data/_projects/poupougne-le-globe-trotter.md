@@ -7,6 +7,11 @@ sections:
   description: Flyers zerezrzer
   images:
   - "/cms/flyer2017.jpg"
+- template: section
+  description: Création de visuels de couverture pour annoncer les futurs voyages
+    de Poupougne sur sa page facebook.
+  title: Visuels Facebook
+  images: []
 featured: true
 categories:
 - Graphisme
