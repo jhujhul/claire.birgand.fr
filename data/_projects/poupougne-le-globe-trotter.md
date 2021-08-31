@@ -12,7 +12,8 @@ sections:
 - template: section
   title: Flyers
   description: Création de flyers de présentation
-  images: []
+  images:
+  - "/cms/flyer2017.jpg"
 featured: true
 categories:
 - Graphisme
