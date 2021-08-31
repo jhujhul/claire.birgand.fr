@@ -6,7 +6,9 @@ sections:
   title: Une du journal "Les Infos du Pays de Redon"
   description: Création d'un visuel pour un journal local dans le cadre de la grande
     "Poupougnade", un défilé du ridicule organisé par Poupougne dans les rues de Redon.
-  images: []
+  images:
+  - "/cms/portfolio.jpg"
+  - "/cms/poupougne_portfolio_848x575.jpg"
 featured: true
 categories:
 - Graphisme
