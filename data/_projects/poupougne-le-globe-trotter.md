@@ -9,6 +9,10 @@ sections:
   images:
   - "/cms/portfolio.jpg"
   - "/cms/poupougne_portfolio_848x575.jpg"
+- template: section
+  title: Flyers
+  description: Création de flyers de présentation
+  images: []
 featured: true
 categories:
 - Graphisme
