@@ -5,6 +5,6 @@ sections: []
 featured: true
 categories:
 - Graphisme
-subtitle: Logo / Flyers / Presse
+subtitle: Logo / Flyers / Presse / Facebook
 
 ---
