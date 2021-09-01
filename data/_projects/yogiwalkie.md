@@ -6,7 +6,8 @@ sections:
   images:
   - "/cms/yogowalkie_portfolio_848x575.jpg"
   title: Logo
-  description: zerzerzr
+  description: Création d'une logo pour Yogi Walkie, une méthode de yoga nomade en
+    pleine nature.
 featured: false
 categories:
 - Graphisme
