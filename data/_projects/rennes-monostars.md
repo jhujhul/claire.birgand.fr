@@ -2,18 +2,14 @@
 title: Rennes MonoStars
 mainImage: "/cms/monostars.jpg"
 sections:
-  - template: section
-    title: Refonte du logo
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-      praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-      excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-      officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-      rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-      est eligendi optio cumque nihil impedit quo minus id quod maxime "
-    images: []
+- template: section
+  title: Refonte de logo
+  description: Refonte du logo du club de monocycle Rennes MonoStars.
+  images:
+  - "/cms/monostars_portfolio-_848x575.jpg"
 featured: false
 categories:
-  - Graphisme
+- Graphisme
 subtitle: Refonte logo
+
 ---
