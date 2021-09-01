@@ -20,6 +20,11 @@ sections:
   - "/cms/pij_portfolio_rythmesco_848x575.jpg"
   title: Affiche conférence
   description: conférence rythme
+- template: section
+  images:
+  - "/cms/pij_portfolio_chantier_848x575.jpg"
+  title: Flyer
+  description: Chantier jeunes
 featured: false
 categories:
 - Graphisme
