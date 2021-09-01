@@ -1,5 +1,5 @@
 ---
-title: Point Information Jeunesse Saint-Gilles
+title: Point Information Jeunesse
 subtitle: Affiches / Flyers / Dépliants / Réseaux sociaux
 mainImage: "/cms/pij.jpg"
 sections:
