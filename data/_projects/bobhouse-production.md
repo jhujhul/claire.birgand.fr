@@ -8,6 +8,7 @@ sections:
   title: Logo lettering
   images:
   - "/cms/bobhouse_848x575.jpg"
+  - "/cms/bobhouse_2_848x575.jpg"
 featured: true
 categories:
 - Lettering
