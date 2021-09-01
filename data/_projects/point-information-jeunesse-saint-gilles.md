@@ -17,6 +17,7 @@ sections:
   description: Création d'un flyer A5
 - template: section
   images:
+  - "/cms/pij_portfolio_rythmesco-_848x575.jpg"
   - "/cms/pij_portfolio_rythmesco_848x575.jpg"
   title: Affiche conférence
   description: conférence rythme
