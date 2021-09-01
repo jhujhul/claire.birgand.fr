@@ -24,7 +24,7 @@ sections:
   images:
   - "/cms/pij_portfolio_chantier_848x575.jpg"
   title: Flyer
-  description: Chantier jeunes
+  description: Chantier jeunesvr
 featured: false
 categories:
 - Graphisme
