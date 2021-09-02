@@ -16,7 +16,7 @@ sections:
   images:
   - "/cms/pij_portfolio_info_848x575.jpg"
   title: Flyer atelier informatique
-  description: Création d'un flyer A5
+  description: Création d'un flyer A5 pour promouvoir les ateliers informatiques.
 - template: section
   images:
   - "/cms/pij_portfolio_rythmesco-_848x575.jpg"
