@@ -4,8 +4,9 @@ subtitle: Affiches / Flyers / Dépliants / Réseaux sociaux
 mainImage: "/cms/pij.jpg"
 sections:
 - template: section
-  title: 'Affiche et flyer '
-  description: zerzerezr
+  title: Affiche et dépliant
+  description: Création d'une affiche et d'un dépliant pour l'évènement "Les rendez-vous
+    jeunesse" sur le thème de la gourmandise.
   images:
   - "/cms/pij_portfolio_pieuvre1_848x575.jpg"
   - "/cms/pij_portfolio_pieuvre2_848x575.jpg"
