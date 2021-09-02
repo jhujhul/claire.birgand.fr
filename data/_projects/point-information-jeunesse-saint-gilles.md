@@ -19,15 +19,16 @@ sections:
   description: Création d'un flyer A5 pour promouvoir les ateliers informatiques.
 - template: section
   images:
+  - "/cms/pij_portfolio_chantier_848x575.jpg"
+  title: Flyer chantier jeunes
+  description: Création d'un flyer pour annoncer un chantier jeunes visant à préparer
+    le terrain d'un futur jardin intergénérationnel.
+- template: section
+  images:
   - "/cms/pij_portfolio_rythmesco-_848x575.jpg"
   title: Affiche conférence
   description: Création d'une affiche pour une conférence-débat sur la réforme des
     rythmes scolaires.
-- template: section
-  images:
-  - "/cms/pij_portfolio_chantier_848x575.jpg"
-  title: Flyer
-  description: Chantier jeunesvr
 featured: false
 categories:
 - Graphisme
