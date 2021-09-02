@@ -3,17 +3,22 @@ import path from "path";
 import matter from "gray-matter";
 import remark from "remark";
 import html from "remark-html";
+import sizeOf from "image-size";
 
 import {
   Category,
   CATEGORY_ALL,
+  Image,
   Project,
   ProjectFrontMatter,
+  ProjectSection,
+  ProjectSectionFrontMatter,
   Testimonial,
 } from "../types";
 
 const projectsDirectory = path.join(process.cwd(), "data/_projects");
 const testimonialsDirectory = path.join(process.cwd(), "data/_testimonials");
+const publicDirectory = path.join(process.cwd(), "public");
 const legalNoticeFilePAth = path.join(
   process.cwd(),
   "data/mentions-legales.md"
@@ -23,6 +28,21 @@ const getSlug = (filename: string): string => filename.replace(".md", "");
 
 const getFilename = (slug: string): string => `${slug}.md`;
 
+const getImage = (imageSrc: string): Image => {
+  const imagePath = path.join(publicDirectory, imageSrc);
+  const { width, height } = sizeOf(imagePath);
+
+  if (!width || !height) {
+    throw Error("Could not get dimensions of image " + imageSrc);
+  }
+
+  return {
+    src: imageSrc,
+    width,
+    height,
+  };
+};
+
 export async function getProjectBySlug(slug: string): Promise<Project> {
   const filename = getFilename(slug);
   const filePath = path.join(projectsDirectory, filename);
@@ -31,11 +51,31 @@ export async function getProjectBySlug(slug: string): Promise<Project> {
   const result = matter(fileContents);
   const data = result.data as ProjectFrontMatter;
 
+  return getProject(data, slug);
+}
+
+const getProject = (
+  projectFrontMatter: ProjectFrontMatter,
+  slug: string
+): Project => {
   return {
-    ...data,
+    ...projectFrontMatter,
+    mainImage: getImage(projectFrontMatter.mainImage),
+    sections: projectFrontMatter.sections.map((sectionData) =>
+      getSection(sectionData)
+    ),
     slug,
   };
-}
+};
+
+const getSection = (
+  sectionFrontMatter: ProjectSectionFrontMatter
+): ProjectSection => {
+  return {
+    ...sectionFrontMatter,
+    images: sectionFrontMatter.images.map((imageSrc) => getImage(imageSrc)),
+  };
+};
 
 interface GetAllProjectsInput {
   onlyFeatured: boolean;

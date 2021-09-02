@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FunctionComponent } from "react";
 
 import { Project } from "../types";
@@ -22,34 +23,34 @@ const ProjectList: FunctionComponent<Props> = (props) => {
 
         return (
           <div className="mb-4" key={slug}>
-            {/* <Link as={`/projects/${slug}`} href="/projects/[slug]">
-              <a> */}
-            <div
-              className="relative bg-gray-400 mb-2"
-              style={{ paddingBottom: "100%" }}
-            >
-              {mainImage && (
-                <Image
-                  src={mainImage}
-                  layout="fill"
-                  objectFit="cover"
-                  className="hover:opacity-75 transition-opacity duration-300"
-                  alt={`${title} - ${subtitle}`}
-                />
-              )}
-            </div>
-            <p
-              className={`${descriptionColor} font-medium text-center uppercase line leading-tight`}
-            >
-              {title}
-            </p>
-            <p
-              className={`${descriptionColor} italic text-center leading-tight`}
-            >
-              {subtitle}
-            </p>
-            {/* </a>
-            </Link> */}
+            <Link as={`/projects/${slug}`} href="/projects/[slug]" passHref>
+              <a>
+                <div
+                  className="relative bg-gray-400 mb-2"
+                  style={{ paddingBottom: "100%" }}
+                >
+                  {mainImage && (
+                    <Image
+                      src={mainImage.src}
+                      layout="fill"
+                      objectFit="cover"
+                      className="hover:opacity-75 transition-opacity duration-300"
+                      alt={`${title} - ${subtitle}`}
+                    />
+                  )}
+                </div>
+                <p
+                  className={`${descriptionColor} font-medium text-center uppercase line leading-tight`}
+                >
+                  {title}
+                </p>
+                <p
+                  className={`${descriptionColor} italic text-center leading-tight`}
+                >
+                  {subtitle}
+                </p>
+              </a>
+            </Link>
           </div>
         );
       })}

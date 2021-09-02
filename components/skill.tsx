@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FunctionComponent } from "react";
 
 import { useMediaQuery } from "../hooks/useMediaQuery";
+import HighlightedText from "./highlighted-text";
 
 interface SkillProps {
   name: string;
@@ -9,16 +10,6 @@ interface SkillProps {
 const Skill: FunctionComponent<SkillProps> = (props) => {
   const { children, name } = props;
   const isMdOrLarger = useMediaQuery("(min-width: 768px)");
-
-  const title = (
-    <h3 className="relative inline-block font-mono text-4xl leading-9">
-      <span
-        aria-hidden="true"
-        className="absolute inset-0 mt-3 mb-1 bg-alien"
-      ></span>
-      <span className="relative">{name}</span>
-    </h3>
-  );
 
   return (
     <div
@@ -41,7 +32,10 @@ const Skill: FunctionComponent<SkillProps> = (props) => {
               />
             </div>
           )}
-          {title}
+
+          <h3 className="font-mono text-4xl leading-9">
+            <HighlightedText>{name}</HighlightedText>
+          </h3>
         </div>
         {children}
       </div>

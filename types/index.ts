@@ -1,17 +1,22 @@
 export type Project = {
+  mainImage: Image;
+  sections: ProjectSection[];
   slug: string;
-} & ProjectFrontMatter;
+} & Omit<ProjectFrontMatter, "mainImage" | "sections">;
+
+export type ProjectSection = {
+  images: Image[];
+} & Omit<ProjectSectionFrontMatter, "images">;
 
 export interface ProjectFrontMatter {
   title: string;
   subtitle?: string;
   mainImage: string;
-  sections: ProjectSection[];
+  sections: ProjectSectionFrontMatter[];
   featured: boolean;
   categories: string[];
 }
-
-interface ProjectSection {
+export interface ProjectSectionFrontMatter {
   title: string;
   description: string;
   images: string[];
@@ -34,3 +39,9 @@ export const CATEGORY_ALL = {
   id: "all",
   name: "Tout",
 };
+
+export interface Image {
+  src: string;
+  width: number;
+  height: number;
+}

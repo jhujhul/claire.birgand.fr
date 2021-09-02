@@ -9,3 +9,14 @@
 .link-active {
   background-size: 100% 100%;
 }
+
+.project-image {
+  padding-bottom: 100%;
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    padding-bottom: initial;
+    height: 575px;
+  }
+}

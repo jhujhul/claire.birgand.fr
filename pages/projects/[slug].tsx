@@ -1,12 +1,14 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import { FunctionComponent } from "react";
-import Image from "next/image";
 
 import Container from "../../components/container";
 import Layout from "../../components/layout";
 import { getAllProjects, getProjectBySlug } from "../../lib/api";
 import { Project } from "../../types";
+import WorkTogether from "../../components/work-together";
+import Section from "../../components/section";
+import HighlightedText from "../../components/highlighted-text";
 
 type Props = {
   project: Project;
@@ -22,24 +24,18 @@ const ProjectComponent: FunctionComponent<Props> = (props) => {
   return (
     <Layout>
       <Container>
-        {project.title}
-        <div className="h-96 w-full relative">
-          <Image src={project.mainImage} layout="fill" objectFit="contain" />
+        <div className="flex justify-center mb-8 lg:mb-12">
+          <h1 className="font-mono text-4xl leading-9 text-center">
+            <HighlightedText>{project.title}</HighlightedText>
+          </h1>
         </div>
-        {project.sections.map((section) => {
-          return (
-            <div key={section.title}>
-              <div>{section.title}</div>
-              <div>{section.description}</div>
 
-              {section.images.map((image) => (
-                <div className="h-96 w-full relative">
-                  <Image src={image} layout="fill" objectFit="contain" />
-                </div>
-              ))}
-            </div>
-          );
-        })}
+        {project.sections.map((section) => (
+          <Section key={section.title} section={section} />
+        ))}
+        <div className="mb-10 lg:mb-20">
+          <WorkTogether />
+        </div>
       </Container>
     </Layout>
   );

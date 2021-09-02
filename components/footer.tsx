@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FunctionComponent } from "react";
 
+import config from "../data/config.json";
 import Container from "./container";
 import FooterItem from "./footer-item";
-import config from "../data/config.json";
 
 const { email, ville, telephone } = config;
 
@@ -59,8 +59,8 @@ const Footer: FunctionComponent = () => {
               />
             </a>
           </div>
-          <Link href="/mentions-legales">
-            <div className="mt-4 md:mt-0 cursor-pointer">© Claire Birgand</div>
+          <Link href="/mentions-legales" passHref>
+            <a className="mt-4 md:mt-0 cursor-pointer">© Claire Birgand</a>
           </Link>
         </div>
       </Container>
