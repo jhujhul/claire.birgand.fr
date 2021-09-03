@@ -36,6 +36,17 @@ sections:
   - "/cms/blot_mailing2_848x575.jpg"
   - "/cms/blot_mailing1_848x575.jpg"
   - "/cms/blot_mailing4_848x575.jpg"
+- template: section
+  title: Vitrophanies
+  description: Illustrations de lieux emblématiques (gare de St Brieuc, église Notre-Dame-de-Victoire
+    et cité de la voile à Lorient) pour des vitrophanies à poser sur des locaux commerciaux.
+  images:
+  - "/cms/blot_vitrophanies_848x575.jpg"
+- template: section
+  title: Trombinoscope
+  description: Création du nouveau template du trombinoscope Blot habitation.
+  images:
+  - "/cms/blot_trombi_848x575.jpg"
 featured: true
 categories:
 - Graphisme
