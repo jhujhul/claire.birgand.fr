@@ -27,6 +27,15 @@ sections:
   - "/cms/5617791.jpg"
   description: Création de panneaux 4x3 pour la vente de terrain d'un lotissement
     et pour la location d'un local commercial.
+- template: section
+  title: Mailings
+  description: Création de nombreux supports de prospection A4 modifiables par les
+    assistantes (PPT).
+  images:
+  - "/cms/blot_mailing3_848x575.jpg"
+  - "/cms/blot_mailing2_848x575.jpg"
+  - "/cms/blot_mailing1_848x575.jpg"
+  - "/cms/blot_mailing4_848x575.jpg"
 featured: true
 categories:
 - Graphisme
