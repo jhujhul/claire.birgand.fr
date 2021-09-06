@@ -3,6 +3,12 @@ title: Blot Immobilier
 mainImage: "/cms/blot.jpg"
 sections:
 - template: section
+  title: Campagne Avril 2021
+  description: Création d'une campagne publicitaire sur le thème du printemps.
+  images:
+  - "/cms/blot_papillonvitrine_848x575.jpg"
+  - "/cms/blot_papillonsrs_848x575.jpg"
+- template: section
   title: Visuels Réseaux Sociaux
   description: Création de visuels pour des publications sur la page Facebook et LinkedIn
     du groupe.
@@ -47,10 +53,6 @@ sections:
   description: Création du nouveau template du trombinoscope Blot habitation.
   images:
   - "/cms/blot_trombi_848x575.jpg"
-- template: section
-  title: Campagne Avril 2021
-  description: Création d'une campagne publicitaire sur le thème du printemps.
-  images: []
 featured: true
 categories:
 - Graphisme
