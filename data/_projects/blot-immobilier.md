@@ -29,8 +29,8 @@ sections:
     et pour la location d'un local commercial.
 - template: section
   title: Mailings
-  description: Création de nombreux supports de prospection A4 modifiables par les
-    assistantes (PPT).
+  description: "Création de nombreux supports de prospection A4 modifiables par les
+    assistantes (PPT).\nPS : "
   images:
   - "/cms/blot_mailing3_848x575.jpg"
   - "/cms/blot_mailing2_848x575.jpg"
@@ -47,6 +47,10 @@ sections:
   description: Création du nouveau template du trombinoscope Blot habitation.
   images:
   - "/cms/blot_trombi_848x575.jpg"
+- template: section
+  title: Campagne Avril 2021
+  description: Création d'une campagne publicitaire sur le thème du printemps.
+  images: []
 featured: true
 categories:
 - Graphisme
