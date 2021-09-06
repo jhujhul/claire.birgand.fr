@@ -6,6 +6,7 @@ sections:
   title: Campagne Avril 2021
   description: Création d'une campagne publicitaire sur le thème du printemps.
   images:
+  - "/cms/5552625.jpg"
   - "/cms/blot_papillonvitrine_848x575.jpg"
   - "/cms/blot_papillonsrs_848x575.jpg"
 - template: section
