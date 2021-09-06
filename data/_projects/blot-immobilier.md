@@ -16,6 +16,7 @@ sections:
   - "/cms/blot_mailingtirelire_848x575.jpg"
   - "/cms/blot_tirelirevitrine_848x575.jpg"
   - "/cms/blot_tirelirers_848x575.jpg"
+  - "/cms/gif_site_tirelire.gif"
 - template: section
   title: Campagne janvier 2020
   description: Campagne livre jeux
