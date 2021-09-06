@@ -16,6 +16,11 @@ sections:
   - "/cms/blot_tirelirevitrine_848x575.jpg"
   - "/cms/blot_tirelirers_848x575.jpg"
 - template: section
+  title: Campagne janvier 2020
+  description: Campagne livre jeux
+  images:
+  - "/cms/blot_livretjeux_848x575.jpg"
+- template: section
   title: Visuels Réseaux Sociaux
   description: Création de visuels pour des publications sur la page Facebook et LinkedIn
     du groupe.
