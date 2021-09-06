@@ -4,6 +4,11 @@ subtitle: Goodies / Badges
 mainImage: "/cms/labfab2.jpg"
 sections:
 - template: section
+  title: MétroMix
+  description: goodie
+  images:
+  - "/cms/labfab_metromix_848x575.jpg"
+- template: section
   title: Exploration
   description: tests
   images:
