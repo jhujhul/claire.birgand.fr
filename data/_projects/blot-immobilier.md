@@ -7,6 +7,7 @@ sections:
   description: Création d'une campagne publicitaire sur le thème du printemps.
   images:
   - "/cms/blot_papillonvitrine_848x575.jpg"
+  - "/cms/gif_site.gif"
   - "/cms/blot_papillonsrs_848x575.jpg"
 - template: section
   title: Campagne janvier 2021
