@@ -11,8 +11,8 @@ sections:
   title: Badges
   description: Création de goodies remis aux différentes ateliers proposés par MakeMe.
   images:
-  - "/cms/makeme_badges2_848x575.jpg"
   - "/cms/makeme_badges_848x575.jpg"
+  - "/cms/makeme_badges2_848x575.jpg"
 - template: section
   images:
   - "/cms/makeme_fuseemini_848x575.jpg"
