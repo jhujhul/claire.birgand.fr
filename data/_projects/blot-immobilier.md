@@ -9,6 +9,13 @@ sections:
   - "/cms/blot_papillonvitrine_848x575.jpg"
   - "/cms/blot_papillonsrs_848x575.jpg"
 - template: section
+  title: Campagne janvier 2021
+  description: Campagne tirelire
+  images:
+  - "/cms/blot_mailingtirelire_848x575.jpg"
+  - "/cms/blot_tirelirevitrine_848x575.jpg"
+  - "/cms/blot_tirelirers_848x575.jpg"
+- template: section
   title: Visuels Réseaux Sociaux
   description: Création de visuels pour des publications sur la page Facebook et LinkedIn
     du groupe.
