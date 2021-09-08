@@ -13,6 +13,21 @@ sections:
   description: pour les matchs
   images:
   - "/cms/rmh_ecran_848x575.gif"
+- template: section
+  images:
+  - "/cms/rmh_affiches2_848x575.jpg"
+  - "/cms/rmh_affiches3_848x575.jpg"
+  - "/cms/rmh_affiches1_848x575.jpg"
+  - "/cms/rmh_affiches4_848x575.jpg"
+  title: Affiches
+  description: Création pour chaque match à domicile d'une affiche
+- template: section
+  images:
+  - "/cms/rmh_rs1_848x575.jpg"
+  - "/cms/rmh_rs3_848x575.jpg"
+  - "/cms/rmh_rs2_848x575.jpg"
+  title: Réseaux sociaux
+  description: Visuels couverture facebook et event
 featured: true
 categories:
 - Graphisme
