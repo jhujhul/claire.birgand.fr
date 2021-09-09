@@ -7,6 +7,7 @@ sections:
   description: Refonte du logo du club de monocycle Rennes MonoStars.
   images:
   - "/cms/monostars_portfolio-_848x575.jpg"
+  - "/cms/monostars_portfolio-2_848x575.jpg"
 featured: false
 categories:
 - Graphisme
