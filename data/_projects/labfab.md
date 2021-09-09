@@ -8,6 +8,7 @@ sections:
   description: goodie
   images:
   - "/cms/labfab_metromix_848x575.jpg"
+  - "/cms/labfab_portfolio_848x575.jpg"
 - template: section
   title: Exploration
   description: tests
