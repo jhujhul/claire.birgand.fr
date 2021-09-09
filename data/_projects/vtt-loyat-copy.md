@@ -26,7 +26,7 @@ sections:
   title: Randonnées VTT & pédestres 2020
   description: 'Création de nombreux supports de communication pour les randonnées
     VTT & pédestres : affiche, dépliant, banderole, roll-up.'
-featured: true
+featured: false
 categories:
 - Graphisme
 
