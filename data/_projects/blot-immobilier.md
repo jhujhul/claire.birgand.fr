@@ -16,11 +16,11 @@ sections:
   title: Campagne janvier 2021
   description: Campagne tirelire
   images:
-  - "/cms/blot_tirelire_848x575.jpg"
   - "/cms/blot_mailingtirelire_848x575.jpg"
+  - "/cms/blot_tirelire_848x575.jpg"
   - "/cms/blot_tirelirevitrine_848x575.jpg"
-  - "/cms/blot_tirelirers_848x575.jpg"
   - "/cms/gif_site_tirelire.gif"
+  - "/cms/blot_tirelirers_848x575.jpg"
 - template: section
   title: Campagne janvier 2020
   description: Campagne livre jeux
