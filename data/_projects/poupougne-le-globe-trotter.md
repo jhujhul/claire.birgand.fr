@@ -9,7 +9,7 @@ sections:
     créé un logo pour l'association "La Famille Poupougne", ainsi qu'une version pour
     la Gay Pride.
   images:
-  - "/cms/logos_848x575.jpg"
+  - "/cms/poupougne_logos_848x575.jpg"
 - template: section
   images:
   - "/cms/flyer2017.jpg"
