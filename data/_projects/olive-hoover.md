@@ -4,7 +4,7 @@ mainImage: "/cms/olive_hoover.jpg"
 sections:
 - template: section
   images:
-  - "/cms/olivehoover_portfolio_848x575.jpg"
+  - "/cms/olivehoover_portfolio-_848x575.jpg"
   description: Joueuse de derby
   title: Lettering
 featured: false
