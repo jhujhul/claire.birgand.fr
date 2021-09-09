@@ -16,6 +16,7 @@ sections:
 - template: section
   images:
   - "/cms/makeme_fuseemini_848x575.jpg"
+  - "/cms/makeme_fuseevoxel_848x575.jpg"
   title: Fusée mini
   description: Création
 featured: true
