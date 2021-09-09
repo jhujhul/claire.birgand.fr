@@ -9,8 +9,7 @@ sections:
   description: Création d'une affiche abribus, d'un flyer A4 R/V et d'un panneau pour
     annoncer l'offre de rentrée.
 - template: section
-  images:
-  - "/cms/curves_portfolio3_848x575.jpg"
+  images: []
   title: Panneau 4x3
   description: zerzerzerezrzer
 featured: false
