@@ -18,7 +18,7 @@ sections:
   images:
   - "/cms/vttloyat_affiche2020_848x575.jpg"
   - "/cms/vttloyat_flyer1_848x575.jpg"
-  - "/cms/vttloyat_flyer2_848x575.jpg"
+  - "/cms/vttloyat_flyer2-_848x575.jpg"
   - "/cms/vttloyat_banniere_848x575.jpg"
   - "/cms/vttloyat_rollup_848x575.jpg"
   title: Randonnées VTT & pédestres 2020
