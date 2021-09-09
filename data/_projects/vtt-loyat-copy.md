@@ -1,5 +1,5 @@
 ---
-title: VTT Loyat-(copy)
+title: Loyat Sports Nature
 subtitle: 'Affiches / Flyers / Roll-ups / Banderoles / Réseaux sociaux '
 mainImage: "/cms/vtt.jpg"
 sections:
