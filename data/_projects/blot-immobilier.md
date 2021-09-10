@@ -66,6 +66,11 @@ sections:
     et cité de la voile à Lorient) pour des vitrophanies à poser sur des locaux commerciaux.
   images:
   - "/cms/blot_vitrophanies_848x575.jpg"
+- template: section
+  title: Trombinoscope
+  description: Création du nouveau template du trombinoscope Blot habitation
+  images:
+  - "/cms/blot_trombi_848x575.jpg"
 featured: true
 categories:
 - Graphisme
