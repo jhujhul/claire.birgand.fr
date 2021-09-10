@@ -25,8 +25,6 @@ sections:
   - "/cms/vttloyat_banniere_848x575.jpg"
   - "/cms/vttloyat_flyer1_848x575.jpg"
   - "/cms/vttloyat_rollup_848x575.jpg"
-  - "/cms/vttloyat_flyerint_848x575.jpg"
-  - "/cms/vttloyat_flyer2-_848x575.jpg"
 featured: true
 categories:
 - Graphisme
