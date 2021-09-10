@@ -12,15 +12,6 @@ sections:
   - "/cms/vttloyat_trail_848x575.jpg"
   - "/cms/vttloyat_trailaffiche_848x575.jpg"
 - template: section
-  title: Randonnées VTT & pédestres 2020
-  description: 'Création de nombreux supports de communication pour les randonnées
-    VTT & pédestres : affiche, dépliant, banderole, roll-up.'
-  images:
-  - "/cms/vttloyat_affiche2020_848x575.jpg"
-  - "/cms/vttloyat_flyer1_848x575.jpg"
-  - "/cms/vttloyat_banniere_848x575.jpg"
-  - "/cms/vttloyat_rollup_848x575.jpg"
-- template: section
   title: Affiches Randonnée VTT & pédestre
   description: Création d'affiches - N&B impression sur papier jaune
   images:
