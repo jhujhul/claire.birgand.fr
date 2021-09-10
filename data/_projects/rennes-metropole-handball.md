@@ -19,33 +19,17 @@ sections:
   title: Affiches
   description: Création d'affiches pour chaque match à domicile.
 - template: section
-  images:
-  - "/cms/rmh_rs1_848x575.jpg"
-  - "/cms/rmh_rs3_848x575.jpg"
-  - "/cms/rmh_rs2_848x575.jpg"
-  title: Réseaux sociaux
-  description: Déclinaisons des différentes affiches en couverture et visuels évènements
-    sur la page Facebook du club.
-- template: section
   title: Banderoles
   description: Salle et VIP
   images:
   - "/cms/rmh_banderoles_848x575.jpg"
 - template: section
-  title: Roll up
-  description: roll up
-  images:
-  - "/cms/rmh_rollup4_848x575.jpg"
-  - "/cms/rmh_banderolerondpoint_848x575.jpg"
-  - "/cms/rmh_rollup2_848x575.jpg"
-  - "/cms/rmh_rollup_848x575.jpg"
-  - "/cms/rmh_rollup3_848x575.jpg"
-- template: section
   images:
   - "/cms/rmh_dedicaces2_848x575.jpg"
   - "/cms/rmh_dedicaces1_848x575.jpg"
   title: Support dédicaces
-  description: Séance dédicaces
+  description: Tous les ans, création d'un support pour les séances dédicaces avec
+    les joueuses.
 - template: section
   images:
   - "/cms/rmh_maillots_848x575.jpg"
@@ -58,6 +42,23 @@ sections:
   - "/cms/rmh_sousverre_848x575.jpg"
   title: Sous-verres
   description: sous-verres invitation
+- template: section
+  title: Roll up
+  description: roll up
+  images:
+  - "/cms/rmh_rollup4_848x575.jpg"
+  - "/cms/rmh_banderolerondpoint_848x575.jpg"
+  - "/cms/rmh_rollup2_848x575.jpg"
+  - "/cms/rmh_rollup_848x575.jpg"
+  - "/cms/rmh_rollup3_848x575.jpg"
+- template: section
+  images:
+  - "/cms/rmh_rs1_848x575.jpg"
+  - "/cms/rmh_rs3_848x575.jpg"
+  - "/cms/rmh_rs2_848x575.jpg"
+  title: Réseaux sociaux
+  description: Déclinaisons des différentes affiches en couverture et visuels évènements
+    sur la page Facebook du club.
 - template: section
   title: Ecran led 7m²
   description: Créations de visuels à faire apparaitre jour de match sur l'écran de
