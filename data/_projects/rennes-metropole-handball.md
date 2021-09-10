@@ -5,8 +5,8 @@ sections:
 - template: section
   title: Campagnes abribus
   images:
-  - "/cms/rmh_abribus_848x575.jpg"
   - "/cms/rmh_abribus2_848x575.jpg"
+  - "/cms/rmh_abribus_848x575.jpg"
   description: |
     J'ai travaillé comme infographiste pendant 6 ans à Rennes Métropole Handball, un club de handball d'une vingtaine d'équipes dont une équipe féminine semi-pro (D2).
     Création d'affiches abribus pour annoncer le lancement de saison.
