@@ -7,7 +7,7 @@ sections:
   images:
   - "/cms/uinac_portfolio_848x575.jpg"
   description: Mise en page de la jaquette du DVD de monocycle extrême "Unicycling
-    is not a crime" réunissant 36 riders de 12 nationalités différentes
+    is not a crime" réunissant 36 riders de 12 nationalités différentes.
 - template: section
   description: Création de l'habillage du DVD.
   title: DVD
