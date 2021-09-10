@@ -3,7 +3,7 @@ title: Rennes Métropole Handball
 mainImage: "/cms/site_web.jpg"
 sections:
 - template: section
-  title: Campagne abribus
+  title: Campagnes abribus
   images:
   - "/cms/rmh_abribus_848x575.jpg"
   - "/cms/rmh_abribus2_848x575.jpg"
@@ -19,7 +19,7 @@ sections:
   title: Affiches
   description: Création d'affiches pour chaque match à domicile.
 - template: section
-  title: Ecran géant à la salle de la Ricoquais
+  title: Ecran géant
   description: pour les matchs
   images:
   - "/cms/rmh_ecran_848x575.gif"
