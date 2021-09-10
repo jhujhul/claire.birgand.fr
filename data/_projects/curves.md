@@ -21,6 +21,7 @@ sections:
   description: Création de stickers pour habiller l'intérieur de la salle de sport.
   images:
   - "/cms/curves_stickers_848x575.jpg"
+  - "/cms/curves_stickers_848x575.jpg"
 featured: false
 categories:
 - Graphisme
