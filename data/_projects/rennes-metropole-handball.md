@@ -19,18 +19,13 @@ sections:
   title: Affiches
   description: Création d'affiches pour chaque match à domicile.
 - template: section
-  title: Ecran led 7m²
-  description: Créations de visuels à faire apparaitre jour de match sur l'écran de
-    7m² qui sert aussi de panneau d'affichage du score.
-  images:
-  - "/cms/rmh_ecran_848x575.gif"
-- template: section
   images:
   - "/cms/rmh_rs1_848x575.jpg"
   - "/cms/rmh_rs3_848x575.jpg"
   - "/cms/rmh_rs2_848x575.jpg"
   title: Réseaux sociaux
-  description: Visuels couverture facebook et event
+  description: Déclinaisons des différentes affiches en couverture et visuels évènements
+    sur la page Facebook du club.
 - template: section
   title: Banderoles
   description: Salle et VIP
@@ -63,6 +58,12 @@ sections:
   - "/cms/rmh_sousverre_848x575.jpg"
   title: Sous-verres
   description: sous-verres invitation
+- template: section
+  title: Ecran led 7m²
+  description: Créations de visuels à faire apparaitre jour de match sur l'écran de
+    7m² qui sert aussi de panneau d'affichage du score.
+  images:
+  - "/cms/rmh_ecran_848x575.gif"
 featured: true
 categories:
 - Graphisme
