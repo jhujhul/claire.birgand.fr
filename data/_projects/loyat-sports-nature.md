@@ -16,6 +16,11 @@ sections:
   description: Création d'affiches - N&B impression sur papier jaune
   images:
   - "/cms/vttloyat_2affiches_848x575.jpg"
+- template: section
+  description: 'Création de nombreux supports de communication pour les randonnées
+    VTT & pédestres : affiche, dépliant, banderole, roll-up.'
+  title: Randonnées VTT & pédestres 2020
+  images: []
 featured: true
 categories:
 - Graphisme
