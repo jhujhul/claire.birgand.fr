@@ -22,6 +22,11 @@ sections:
   - "/cms/blot_tirelirevitrine_848x575.jpg"
   - "/cms/gif_site_tirelire.gif"
   - "/cms/blot_tirelirers_848x575.jpg"
+- template: section
+  title: Campagne janvier 2020
+  description: Livret de jeux
+  images:
+  - "/cms/blot_livretjeux_848x575.jpg"
 featured: true
 categories:
 - Graphisme
