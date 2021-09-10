@@ -17,7 +17,7 @@ sections:
   - "/cms/rmh_affiches1_848x575.jpg"
   - "/cms/rmh_affiches4_848x575.jpg"
   title: Affiches
-  description: Création pour chaque match à domicile d'une affiche
+  description: Création d'affiches pour chaque match à domicile.
 - template: section
   title: Ecran géant à la salle de la Ricoquais
   description: pour les matchs
