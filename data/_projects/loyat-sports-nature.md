@@ -10,6 +10,11 @@ sections:
     Création d'une affiche/flyer pour annoncer un trail nocturne.
   images:
   - "/cms/vttloyat_trail_848x575.jpg"
+- template: section
+  title: Affiches Randonnée VTT & pédestre
+  description: " Création d'affiches - N&B impression sur papier jaune."
+  images:
+  - "/cms/vttloyat_2affiches_848x575.jpg"
 featured: true
 categories:
 - Graphisme
