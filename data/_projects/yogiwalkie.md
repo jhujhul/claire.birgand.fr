@@ -6,7 +6,7 @@ sections:
   images:
   - "/cms/yogowalkie_portfolio2_848x575.jpg"
   title: Logo
-  description: Création d'une logo pour Yogi Walkie, une méthode de yoga nomade en
+  description: Création d'une logo pour YogiWalkie, une méthode de yoga nomade en
     pleine nature.
 featured: false
 categories:
