@@ -10,7 +10,8 @@ sections:
     Création d'une affiche/flyer pour annoncer un trail nocturne.
   images:
   - "/cms/vttloyat_trail_848x575.jpg"
-featured: false
-categories: []
+featured: true
+categories:
+- Graphisme
 
 ---
