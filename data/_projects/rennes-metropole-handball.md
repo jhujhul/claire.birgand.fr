@@ -19,8 +19,9 @@ sections:
   title: Affiches
   description: Création d'affiches pour chaque match à domicile.
 - template: section
-  title: Ecran géant
-  description: pour les matchs
+  title: Ecran led 7m²
+  description: Créations de visuels à faire apparaitre jour de match sur l'écran de
+    7m² qui sert aussi de panneau d'affichage du score.
   images:
   - "/cms/rmh_ecran_848x575.gif"
 - template: section
