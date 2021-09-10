@@ -41,7 +41,6 @@ fields:
     use_select: true
   label: Catégories
 pages:
-- data/_projects/aaa.md
 - data/_projects/association-francaise-de-l-eczema.md
 - data/_projects/bobhouse-production.md
 - data/_projects/curves.md
