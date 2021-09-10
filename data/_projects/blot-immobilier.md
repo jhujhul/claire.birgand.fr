@@ -44,6 +44,13 @@ sections:
   images:
   - "/cms/blot_lbc1_848x575.jpg"
   - "/cms/blot_lbc2_848x575.jpg"
+- template: section
+  title: Panneaux 4x3
+  description: Création de panneaux 4x3 pour la vente de terrain d'un lotissement
+    et pour la location d'un local commercial.
+  images:
+  - "/cms/blot_4x3-_848x575.jpg"
+  - "/cms/blot_4x3_848x575.jpg"
 featured: true
 categories:
 - Graphisme
