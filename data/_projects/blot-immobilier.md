@@ -55,7 +55,11 @@ sections:
   title: Mailings
   description: 'Création de nombreux supports de prospection A4 modifiables par les
     assistantes (PPT). PS :'
-  images: []
+  images:
+  - "/cms/blot_mailing3_848x575.jpg"
+  - "/cms/blot_mailing2_848x575.jpg"
+  - "/cms/blot_mailing1_848x575.jpg"
+  - "/cms/blot_mailing4_848x575.jpg"
 featured: true
 categories:
 - Graphisme
