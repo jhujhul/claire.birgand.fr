@@ -50,6 +50,11 @@ sections:
     et pour la location d'un local commercial.
   images:
   - "/cms/blot_4x3-_848x575.jpg"
+- template: section
+  title: Mailings
+  description: 'Création de nombreux supports de prospection A4 modifiables par les
+    assistantes (PPT). PS :'
+  images: []
 featured: true
 categories:
 - Graphisme
