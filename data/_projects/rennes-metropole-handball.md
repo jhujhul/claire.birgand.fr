@@ -17,7 +17,7 @@ sections:
   - "/cms/rmh_affiches1_848x575.jpg"
   - "/cms/rmh_affiches4_848x575.jpg"
   title: Affiches
-  description: Création d'affiches pour chaque match à domicile.
+  description: Création d'affiches pour annoncer chaque match à domicile.
 - template: section
   title: Banderoles
   description: Salle et VIP
