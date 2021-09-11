@@ -9,7 +9,7 @@ sections:
   - "/cms/curves_portfolio2_848x575.jpg"
   - "/cms/curves_portfolio4_848x575.jpg"
   - "/cms/curves_portfolio1_848x575.jpg"
-  description: "Curves Bruz est un salle de fitness réservée exclusivement aux femmes.
+  description: "Curves Bruz est une salle de fitness réservée exclusivement aux femmes.
     \nCréation d'une affiche abribus, d'un flyer A4 R/V et d'un panneau de 4m² pour
     annoncer l'offre de rentrée."
 - template: section
