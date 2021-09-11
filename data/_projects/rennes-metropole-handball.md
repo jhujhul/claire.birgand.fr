@@ -52,8 +52,9 @@ sections:
   description: Déclinaisons des différentes affiches en couverture et visuels évènements
     sur la page Facebook du club.
 - template: section
-  title: Roll up
-  description: roll up
+  title: Roll-ups et banderole rond-point
+  description: Création de roll-ups (club, panneau interview...) et de banderoles
+    pour annoncer les matchs à domicile sur les ronds-points.
   images:
   - "/cms/rmh_rollup4_848x575.jpg"
   - "/cms/rmh_banderolerondpoint_848x575.jpg"
