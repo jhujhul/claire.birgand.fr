@@ -21,7 +21,8 @@ sections:
   - "/cms/blot_livretjeux_848x575.jpg"
 - template: section
   title: Campagne Avril 2021
-  description: Création d'une campagne publicitaire sur le thème du printemps.
+  description: Création d'un mailing avec un sachet de graines de coquelicots ainsi
+    une campagne publicitaire sur le thème du printemps.
   images:
   - "/cms/blot_mailingpapillons_848x575.jpg"
   - "/cms/blot_flyerpapillon_848x575.jpg"
