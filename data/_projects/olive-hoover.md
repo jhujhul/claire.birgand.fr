@@ -5,7 +5,7 @@ sections:
 - template: section
   images:
   - "/cms/olivehoover_portfolio-_848x575.jpg"
-  description: Joueuse de derby
+  description: Création d'un lettering à partir du nom d'une joueuse de roller derby.
   title: Lettering
 featured: false
 categories:
