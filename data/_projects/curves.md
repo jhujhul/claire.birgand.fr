@@ -20,7 +20,7 @@ sections:
     à Bruz.
 - template: section
   title: Stickers
-  description: Création de stickers pour habiller l'intérieur de la salle de sport.
+  description: Création de stickers XL pour habiller l'intérieur de la salle de sport.
   images:
   - "/cms/curves_stickers_848x575.jpg"
 featured: false
