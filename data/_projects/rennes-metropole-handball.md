@@ -22,8 +22,12 @@ sections:
   images:
   - "/cms/rmh_dedicaces2_848x575.jpg"
   - "/cms/rmh_dedicaces1_848x575.jpg"
-  title: Support dédicaces
-  description: Création de supports papier pour les séances dédicaces avec les joueuses.
+  - "/cms/rmh_billet_848x575.jpg"
+  - "/cms/rmh_clapclap_848x575.jpg"
+  - "/cms/rmh_clapclap2_848x575.jpg"
+  title: Supports print supporters
+  description: 'Création de différents supports pour les matchs : dépliant dédicaces,
+    visuel billet de match papier et clap-clap supporters.'
 - template: section
   images:
   - "/cms/rmh_maillots_848x575.jpg"
