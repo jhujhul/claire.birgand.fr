@@ -1,6 +1,6 @@
 ---
 title: Loyat Sports Nature
-subtitle: Affiches / Flyer / Roll-ups / Banderole
+subtitle: Affiches / Dépliant / Roll-ups / Banderole
 mainImage: "/cms/vtt.jpg"
 sections:
 - template: section
