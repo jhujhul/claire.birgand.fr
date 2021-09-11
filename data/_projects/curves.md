@@ -16,7 +16,8 @@ sections:
   images:
   - "/cms/curves_portfolio3_848x575.jpg"
   title: Panneau 4x3
-  description: zerzerzerezrzer
+  description: Création d'une affiche (qui restera à l'année) pour un panneau 4x3
+    à Bruz.
 - template: section
   title: Stickers
   description: Création de stickers pour habiller l'intérieur de la salle de sport.
