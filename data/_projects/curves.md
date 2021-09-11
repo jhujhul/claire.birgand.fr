@@ -1,6 +1,6 @@
 ---
 title: Curves
-subtitle: Affiches / Flyer
+subtitle: Affiches / Flyer / Stickers
 mainImage: "/cms/curves.jpg"
 sections:
 - template: section
@@ -9,8 +9,9 @@ sections:
   - "/cms/curves_portfolio2_848x575.jpg"
   - "/cms/curves_portfolio4_848x575.jpg"
   - "/cms/curves_portfolio1_848x575.jpg"
-  description: Création d'une affiche abribus, d'un flyer A4 R/V et d'un panneau pour
-    annoncer l'offre de rentrée.
+  description: "Curves Bruz est un salle de fitness réservée exclusivement aux femmes.
+    \nCréation d'une affiche abribus, d'un flyer A4 R/V et d'un panneau de 4m² pour
+    annoncer l'offre de rentrée."
 - template: section
   images:
   - "/cms/curves_portfolio3_848x575.jpg"
