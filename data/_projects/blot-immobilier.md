@@ -5,7 +5,8 @@ mainImage: "/cms/blot.jpg"
 sections:
 - template: section
   title: Campagne janvier 2021
-  description: Campagne tirelire
+  description: Création (en binôme) d'un mailing tirelire et de ses déclinaisons (affiches
+    vitrines, gif sur le site internet, visuel facebook...).
   images:
   - "/cms/blot_mailingtirelire_848x575.jpg"
   - "/cms/blot_tirelire_848x575.jpg"
