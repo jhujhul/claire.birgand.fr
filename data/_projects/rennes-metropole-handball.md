@@ -23,8 +23,7 @@ sections:
   - "/cms/rmh_dedicaces2_848x575.jpg"
   - "/cms/rmh_dedicaces1_848x575.jpg"
   title: Support dédicaces
-  description: Tous les ans, création d'un support pour les séances dédicaces avec
-    les joueuses.
+  description: Création d'un support pour les séances dédicaces avec les joueuses.
 - template: section
   images:
   - "/cms/rmh_maillots_848x575.jpg"
