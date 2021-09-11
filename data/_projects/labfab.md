@@ -12,8 +12,8 @@ sections:
   - "/cms/labfab_metromix_848x575.jpg"
   - "/cms/labfab_portfolio_848x575.jpg"
 - template: section
-  title: Exploration
-  description: tests
+  title: Explorations
+  description: Création de nombreux objets à la découpe laser.
   images:
   - "/cms/labfab_autre2_848x575.jpg"
   - "/cms/labfab_autre_848x575.jpg"
