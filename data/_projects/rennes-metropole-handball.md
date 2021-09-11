@@ -31,7 +31,6 @@ sections:
 - template: section
   images:
   - "/cms/rmh_maillots_848x575.jpg"
-  - "/cms/rmh_maillotsmaquette_848x575.jpg"
   - "/cms/rmh_tshirts_848x575.jpg"
   title: Textile
   description: Création des maquettes des maillots et shorts de match et des visuels
