@@ -24,6 +24,6 @@ sections:
 featured: true
 categories:
 - Design
-subtitle: Goodies / Décorations
+subtitle: Goodies / Décoration
 
 ---
