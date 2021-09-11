@@ -15,7 +15,8 @@ sections:
   - "/cms/blot_tirelirers_848x575.jpg"
 - template: section
   title: Campagne janvier 2020
-  description: Livret de jeux
+  description: Création d'un livret de jeux à destination des enfants (la couverture
+    du livret a été réalisée par une collègue).
   images:
   - "/cms/blot_livretjeux_848x575.jpg"
 - template: section
