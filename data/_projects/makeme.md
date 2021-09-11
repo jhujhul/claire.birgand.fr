@@ -11,8 +11,8 @@ sections:
   - "/cms/makeme_badges_848x575.jpg"
   - "/cms/makeme_badges2_848x575.jpg"
 - template: section
-  title: Fusé déco
-  description: déco
+  title: Décoration fusée
+  description: Création d'une fusée (logo de MakeMe) en bois pour décorer les ateliers.
   images:
   - "/cms/makeme_decofusee_848x575.jpg"
 - template: section
