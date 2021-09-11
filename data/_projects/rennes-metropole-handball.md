@@ -35,7 +35,8 @@ sections:
     des t-shirts supporters.
 - template: section
   title: Banderoles
-  description: Salle et VIP
+  description: Création des banderoles tissus XXL pour habiller la salle de la Ricoquais
+    et l'espace VIP.
   images:
   - "/cms/rmh_banderoles_848x575.jpg"
 - template: section
