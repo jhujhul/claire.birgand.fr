@@ -42,7 +42,7 @@ sections:
   images:
   - "/cms/rmh_sousverre_848x575.jpg"
   title: Sous-verres
-  description: sous-verres invitation
+  description: Création de sous-verres servant également d'invitations aux matchs.
 - template: section
   images:
   - "/cms/rmh_rs1_848x575.jpg"
