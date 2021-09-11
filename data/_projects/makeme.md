@@ -4,7 +4,9 @@ mainImage: "/cms/makeme.jpg"
 sections:
 - template: section
   title: Badges
-  description: Création de goodies remis aux différentes ateliers proposés par MakeMe.
+  description: |-
+    MakeMe est une agence de communication et de production événementielle spécialisée dans le mouvement des Makers et la démocratisation des usages numériques. En 2018, j'ai participé à l'organisation de MakeMeFest Angers.
+    Création de goodies remis aux différentes ateliers proposés par MakeMe lors de l'évènement.
   images:
   - "/cms/makeme_badges_848x575.jpg"
   - "/cms/makeme_badges2_848x575.jpg"
