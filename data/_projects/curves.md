@@ -1,6 +1,6 @@
 ---
 title: Curves
-subtitle: Affiches / Flyer / Stickers
+subtitle: Affiches / Flyer / Stickers / Panneau
 mainImage: "/cms/curves.jpg"
 sections:
 - template: section
