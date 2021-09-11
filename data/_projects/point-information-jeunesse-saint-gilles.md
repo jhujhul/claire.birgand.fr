@@ -1,6 +1,6 @@
 ---
 title: Point Information Jeunesse
-subtitle: Affiches / Flyers / Dépliants / Réseaux sociaux
+subtitle: Affiches / Flyers / Dépliants
 mainImage: "/cms/pij.jpg"
 sections:
 - template: section
