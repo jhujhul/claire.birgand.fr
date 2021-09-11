@@ -70,7 +70,7 @@ sections:
   description: Créations de visuels à faire apparaitre jour de match sur l'écran de
     7m² qui sert aussi de panneau d'affichage du score.
   images:
-  - "/cms/rmh_ecran_848x575.gif"
+  - "/cms/rmh_ecran7_848x575.gif"
 featured: true
 categories:
 - Graphisme
