@@ -63,7 +63,7 @@ sections:
 - template: section
   title: 'Visuels Réseaux Sociaux '
   description: Création de visuels pour des publications sur la page Facebook et LinkedIn
-    du groupe.
+    du groupe Blot Immobilier.
   images:
   - "/cms/blot_rs5_848x575.jpg"
   - "/cms/blot_rs4_848x575.jpg"
