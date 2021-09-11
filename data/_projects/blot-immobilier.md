@@ -1,6 +1,6 @@
 ---
 title: Blot Immobilier
-subtitle: Affiches / Réseaux sociaux / Motion Design ...
+subtitle: Mailings / Vitrophanies / Panneaux...
 mainImage: "/cms/blot.jpg"
 sections:
 - template: section
