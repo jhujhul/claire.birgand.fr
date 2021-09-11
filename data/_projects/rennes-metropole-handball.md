@@ -31,7 +31,8 @@ sections:
   - "/cms/rmh_maillotsmaquette_848x575.jpg"
   - "/cms/rmh_tshirts_848x575.jpg"
   title: Textile
-  description: Maillots et t-shirts supporters
+  description: Création des maquettes des maillots et shorts de match et des visuels
+    des t-shirts supporters.
 - template: section
   title: Banderoles
   description: Salle et VIP
