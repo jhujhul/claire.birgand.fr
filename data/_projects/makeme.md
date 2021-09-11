@@ -19,8 +19,8 @@ sections:
   images:
   - "/cms/makeme_fuseemini_848x575.jpg"
   - "/cms/makeme_fuseevoxel_848x575.jpg"
-  title: Fusée mini
-  description: Création
+  title: Goodie fusée
+  description: Création d'une petite fusée en bois "voxel".
 featured: true
 categories:
 - Design
