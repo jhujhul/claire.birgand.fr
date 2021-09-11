@@ -70,6 +70,6 @@ sections:
 featured: true
 categories:
 - Graphisme
-subtitle: Affiches / Roll-ups / Banderoles / Clap-claps / Textile ...
+subtitle: Affiches / Textile / Banderoles / Roll-ups / Clap-claps...
 
 ---
