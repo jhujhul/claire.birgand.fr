@@ -11,8 +11,9 @@ sections:
   images:
   - "/cms/vttloyat_trail_848x575.jpg"
 - template: section
-  title: Affiches Randonnée VTT & pédestre 2020
-  description: zrererz
+  title: Affiches Randonnées VTT & pédestres 2020
+  description: 'Création de toute la communication visuelle pour l''édition 2020 :
+    affiche, dépliant A5, banderole rond-point et roll-up.'
   images:
   - "/cms/vttloyat_affiche2020_848x575.jpg"
   - "/cms/vttloyat_flyer1_848x575.jpg"
