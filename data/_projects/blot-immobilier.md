@@ -33,8 +33,8 @@ sections:
   - "/cms/gif_site.gif"
 - template: section
   title: Mailings
-  description: 'Création de nombreux supports de prospection A4 modifiables par les
-    assistantes (PPT). PS :'
+  description: Création de nombreux supports de prospection A4 modifiables par les
+    assistantes (PPT).
   images:
   - "/cms/blot_mailing3_848x575.jpg"
   - "/cms/blot_mailing2_848x575.jpg"
