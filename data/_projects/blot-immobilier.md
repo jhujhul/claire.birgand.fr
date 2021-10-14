@@ -20,7 +20,7 @@ sections:
   images:
   - "/cms/blot_livretjeux_848x575.jpg"
 - template: section
-  title: Campagne Avril 2021
+  title: Campagne avril 2021
   description: Création d'un mailing sur le thème du printemps avec un sachet de graines
     de coquelicots et de ses déclinaisons (affiches vitrines, gif sur le site internet,
     visuel facebook...).
