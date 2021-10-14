@@ -6,7 +6,7 @@ sections:
 - template: section
   title: Goodie MétroMix
   description: |-
-    Dans le cadre de mon DU Labfab School Mobility, j'ai réalisé un stage à l'association Bug qui promeut les usages du numérique au bénéfice de tous.
+    Dans le cadre de mon DU Labfab School Mobility, j'ai effectué un stage à l'association Bug qui promeut les usages du numérique au bénéfice de tous et gère un fablab (atelier de fabrication numérique).
     Dans le cadre de l'organisation d'un hackathon autour des enjeux de mobilité (MétroMix), j'ai créé un goodie représentant une rame du VAL rennais.
   images:
   - "/cms/labfab_metromix_848x575.jpg"
