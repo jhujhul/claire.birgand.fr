@@ -4,7 +4,7 @@ subtitle: Affiches / Dépliant / Roll-ups / Banderole
 mainImage: "/cms/vtt.jpg"
 sections:
 - template: section
-  title: Trail Nocturne
+  title: Trail des Sorciers 2021
   description: |-
     Anciennement VTT Loyat, l'association Loyat Sports Nature propose de pratiquer le VTT, le trail et la randonnée.
     Création d'une affiche/flyer pour annoncer un trail nocturne.
