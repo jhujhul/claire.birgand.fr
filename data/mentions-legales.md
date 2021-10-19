@@ -28,8 +28,12 @@ L’ensemble de ce site relève de la législation française et internationale 
 
 ## IMAGES
 
-Photos (portfolio) :  
+Photos et mockups :  
 – [Unsplash](https://unsplash.com/)
 
-Gifs (partie témoignages) :  
+– [Freepix](https://www.freepik.com/)
+
+– [Unblast](https://unblast.com/)
+
+Gifs :  
 – [Giphy](https://giphy.com/)
