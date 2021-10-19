@@ -25,7 +25,7 @@ sections:
   - "/cms/vttloyat_banniere_848x575.jpg"
   - "/cms/vttloyat_rollup_848x575.jpg"
 - template: section
-  title: Affiches Randonnée VTT & pédestre
+  title: Affiches Randonnée VTT & pédestre (2015 & 2019)
   description: 'Création d''affiches pour annoncer les randonnées VTT & pédestres
     annuelles. Contraintes : affiches N&B imprimées sur papier jaune.'
   images:
