@@ -15,7 +15,7 @@ sections:
   description: 'Création des prix à remettre pour les '
   images: []
 - template: section
-  title: Affiches Randonnées VTT & pédestres 2020
+  title: Communication randonnées VTT & pédestres 2020
   description: 'Création de toute la communication visuelle pour l''édition 2020 :
     affiche, dépliant A5, banderole rond-point et roll-up.'
   images:
