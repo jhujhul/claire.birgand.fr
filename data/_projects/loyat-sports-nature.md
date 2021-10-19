@@ -11,6 +11,10 @@ sections:
   images:
   - "/cms/vttloyat_trail_848x575.jpg"
 - template: section
+  title: Trophées et médailles Trail des sorciers 2021
+  description: 'Création des prix à remettre pour les '
+  images: []
+- template: section
   title: Affiches Randonnées VTT & pédestres 2020
   description: 'Création de toute la communication visuelle pour l''édition 2020 :
     affiche, dépliant A5, banderole rond-point et roll-up.'
@@ -28,6 +32,7 @@ sections:
   - "/cms/vttloyat_2affiches_848x575.jpg"
 featured: true
 categories:
+- Design
 - Graphisme
 
 ---
