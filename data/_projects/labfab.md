@@ -15,7 +15,7 @@ sections:
   title: Explorations
   description: Création de nombreux objets à la découpe laser.
   images:
-  - "/cms/labfab_autre2_848x575.jpg"
+  - "/cms/labfab_autre3_848x575.jpg"
   - "/cms/labfab_autre_848x575.jpg"
   - "/cms/labfab_perso2_848x575.jpg"
   - "/cms/labfab_perso1_848x575.jpg"
