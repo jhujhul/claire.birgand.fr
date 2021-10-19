@@ -13,7 +13,7 @@ sections:
 - template: section
   title: Trophées et médailles Trail des sorciers 2021
   description: Création du design des prix à remettre pour les vainqueurs des différentes
-    courses et catégories.
+    courses et catégories (peuplier découpé à la découpeuse laser).
   images:
   - "/cms/lsn_trophees_portfolio_848x575.jpg"
   - "/cms/lsn_medailles_portfolio_848x575.jpg"
