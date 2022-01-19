@@ -23,6 +23,11 @@ sections:
   description: Création de stickers XL pour habiller l'intérieur de la salle de sport.
   images:
   - "/cms/curves_stickers_848x575.jpg"
+- template: section
+  title: Flyer Noël
+  images:
+  - "/cms/curves_flyernoel_848x575.jpg"
+  description: Réalisation d'un flyer pour annoncer l'offre de fin d'année.
 featured: false
 categories:
 - Graphisme
