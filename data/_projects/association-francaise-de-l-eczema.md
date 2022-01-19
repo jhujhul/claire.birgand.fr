@@ -15,6 +15,11 @@ sections:
   - "/cms/eczema2_848x575.jpg"
   description: Création d'une affiche dans le cadre d'un partenariat entre la salle
     de concert Le Rex de Toulouse et l'Association Française de l'Eczéma.
+- template: section
+  title: Affiche covid-19
+  description: Affiche/flyer à destination des enfants et des parents.
+  images:
+  - "/cms/eczema_lavagemains_848x575.jpg"
 featured: false
 categories:
 - Graphisme
