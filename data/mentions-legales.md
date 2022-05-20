@@ -3,7 +3,7 @@
 ---
 ## IDENTITÉ
 
-Claire Birgand est une entreprise individuelle immatriculée à l’URSSAF.  
+Claire Birgand EI est une entreprise individuelle immatriculée à l’URSSAF.  
 SIRET : 901 145 813 00019
 
 clairebirgand@gmail.com  
