@@ -42,5 +42,7 @@ featured: true
 categories:
   - Design
   - Graphisme
+_template: projet_new
 ---
+
 
