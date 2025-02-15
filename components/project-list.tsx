@@ -23,7 +23,12 @@ const ProjectList: FunctionComponent<Props> = (props) => {
 
         return (
           <div className="mb-4" key={slug}>
-            <Link as={`/projects/${slug}`} href="/projects/[slug]" passHref>
+            <Link
+              as={`/projects/${slug}`}
+              href="/projects/[slug]"
+              passHref
+              legacyBehavior
+            >
               <a>
                 <div
                   className="relative bg-gray-400 mb-2"

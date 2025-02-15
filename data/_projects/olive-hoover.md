@@ -1,15 +1,17 @@
 ---
 title: Olive Hoover
-mainImage: "/cms/olive_hoover.jpg"
+mainImage: /cms/olive_hoover.jpg
 sections:
-- template: section
-  images:
-  - "/cms/olivehoover_portfolio-_848x575.jpg"
-  description: Création d'un lettering à partir du nom d'une joueuse de roller derby.
-  title: Lettering
+  - template: section
+    images:
+      - /cms/olivehoover_portfolio-_848x575.jpg
+    description: Création d'un lettering à partir du nom d'une joueuse de roller derby.
+    title: Lettering
 featured: false
 categories:
-- Lettering
+  - Lettering
 subtitle: Projet perso
-
+_template: projet_new
 ---
+
+

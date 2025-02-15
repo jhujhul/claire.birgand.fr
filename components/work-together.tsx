@@ -7,7 +7,7 @@ const { email } = config;
 const WorkTogether: FunctionComponent = () => {
   return (
     <div className="text-center">
-      {/* <Link href="/contact">
+      {/* <Link href="/contact" legacyBehavior>
         <a className="text-4xl leading-snug"> */}
       <a
         className="text-4xl leading-snug cursor-pointer"

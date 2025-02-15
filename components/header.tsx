@@ -41,7 +41,7 @@ const Header = () => {
     <Container>
       <nav className="pt-5 md:pt-12 pb-16">
         <div className="flex items-start md:items-center justify-between">
-          <Link href="/">
+          <Link href="/" legacyBehavior>
             <a className="w-36 md:w-56">
               <Image
                 src="/assets/logo.png"
