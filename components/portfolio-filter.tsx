@@ -15,7 +15,7 @@ const PortfolioFilter: FunctionComponent<Props> = (props) => {
 
   return (
     <li>
-      <Link href={`/portfolio/${category.id}`}>
+      <Link href={`/portfolio/${category.id}`} legacyBehavior>
         <a className="inline-block font-mono text-3xl">
           {isActive ? (
             <HighlightedText>{category.name}</HighlightedText>

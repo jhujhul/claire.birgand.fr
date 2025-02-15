@@ -5,6 +5,7 @@ quote: |-
   Infographiste talentueuse et disponible. Claire nous
   surprend toujours avec des affiches originales et
   toujours aussi belles.
-image: "/cms/giphy_vincent.gif"
-
+image: /cms/giphy_vincent.gif
+_template: temoignage
 ---
+

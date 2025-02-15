@@ -31,7 +31,7 @@ const ProjectSelection: FunctionComponent<Props> = (props) => {
         <ProjectList projects={projects} />
       </div>
       <div className="text-center">
-        <Link href="/portfolio/all">
+        <Link href="/portfolio/all" legacyBehavior>
           <a className="text-alien">
             <span className="font-extralight text-lg leading-5">
               Voir toutes mes

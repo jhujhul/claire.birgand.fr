@@ -59,7 +59,7 @@ const Footer: FunctionComponent = () => {
               />
             </a>
           </div>
-          <Link href="/mentions-legales" passHref>
+          <Link href="/mentions-legales" passHref legacyBehavior>
             <a className="mt-4 md:mt-0 cursor-pointer">© Claire Birgand</a>
           </Link>
         </div>

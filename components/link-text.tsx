@@ -20,7 +20,7 @@ const LinkText: FunctionComponent<LinkTextProps> = (props) => {
   });
 
   return (
-    <Link href={href}>
+    <Link href={href} legacyBehavior>
       <a className={className}>{name}</a>
     </Link>
   );
