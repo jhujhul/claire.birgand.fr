@@ -14,6 +14,11 @@ const branch =
 export default defineConfig({
   branch,
 
+  cmsCallback: (cms) => {
+    cms.flags.set("branch-switcher", true);
+    return cms;
+  },
+
   // Get this from tina.io
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   // Get this from tina.io
