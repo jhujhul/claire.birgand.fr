@@ -97,11 +97,29 @@ export default defineConfig({
         },
         fields: [
           {
-            name: "dummy",
-            label: "Dummy field",
+            name: "email",
+            label: "Email",
             type: "string",
             description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
+              "L'email attaché au lien email du header et affiché dans le footer",
+          },
+          {
+            name: "ville",
+            label: "Ville",
+            type: "string",
+            description: "La ville affichée dans le footer",
+          },
+          {
+            name: "telephone",
+            label: "Téléphone",
+            type: "string",
+            description: "Le téléphone affichée dans le footer",
+          },
+          {
+            name: "linkedin",
+            label: "Linkedin",
+            type: "string",
+            description: "Le lien Linkedin affichée dans le header",
           },
         ],
       },
