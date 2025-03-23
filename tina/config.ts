@@ -1,7 +1,6 @@
 import { defineConfig } from "tinacms";
 
 import { projetFields } from "./templates";
-import { sectionFields } from "./templates";
 import { t_moignageFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
@@ -66,16 +65,7 @@ export default defineConfig({
         match: {
           include: "**/*",
         },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          ...t_moignageFields(),
-        ],
+        fields: [...t_moignageFields()],
       },
       {
         format: "json",
@@ -127,16 +117,7 @@ export default defineConfig({
         match: {
           include: "**/*",
         },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          ...projetFields(),
-        ],
+        fields: [...projetFields()],
       },
     ],
   },

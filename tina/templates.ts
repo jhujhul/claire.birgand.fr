@@ -45,7 +45,7 @@ export function projetFields() {
     },
   ] as TinaField[];
 }
-export function sectionFields() {
+function sectionFields() {
   return [
     {
       type: "string",
