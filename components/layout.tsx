@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import Footer from "./footer";
 import Header from "./header";
 
@@ -10,7 +11,10 @@ const Layout = ({ children }: Props) => {
     <>
       <div className="min-h-screen">
         <Header />
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics />
+        </main>
       </div>
       <Footer />
     </>
