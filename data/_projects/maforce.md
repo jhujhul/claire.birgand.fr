@@ -16,7 +16,7 @@ sections:
     images:
       - /cms/Flyer_Maforce.jpg
     template: section
-featured: true
+featured: false
 categories:
   - Graphisme
 ---
