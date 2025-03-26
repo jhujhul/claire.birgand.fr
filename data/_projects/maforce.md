@@ -6,7 +6,7 @@ sections:
   - title: Logo
     description: Création du logo d’un espace de coworking à Rennes.
     images:
-      - ''
+      - /cms/Maforce_logo2.jpg
     template: section
   - title: Flyer
     description: >-
