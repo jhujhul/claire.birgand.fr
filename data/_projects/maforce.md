@@ -13,7 +13,7 @@ sections:
       Création de flyers 10x21 cm RV pour présenter le coworking et son offre,
       en français et anglais.
     images:
-      - ''
+      - /cms/Flyer_Maforce.jpg
     template: section
 featured: false
 categories:
