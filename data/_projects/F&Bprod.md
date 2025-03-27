@@ -6,7 +6,7 @@ sections:
   - title: Logo
     description: >-
       Création du logo d’une agence spécialisée dans la production
-      audiovisuelle, la communication marketing, et la gestion de la présence en
+      audiovisuelle, la communication marketing et la gestion de la présence en
       ligne pour les acteurs de la chaîne alimentaire.
     images:
       - /cms/F&Bprod_portfolio_848x575.jpg
