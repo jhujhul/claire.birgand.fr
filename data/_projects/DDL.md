@@ -2,6 +2,14 @@
 title: Diarra Dit Latapie
 subtitle: Logo / Lettering
 sections:
+  - title: Letterings
+    description: >-
+      Création des lettrages personnalisés des prénoms de chaque membre de la
+      famille, à associer au monogramme.
+    images:
+      - /cms/DDL_feuille.jpg
+      - /cms/DDL_lettering.jpg
+    template: section
   - title: Monogramme
     description: >-
       Création d’un monogramme familial alliant sobriété, héritage africain,
