@@ -1,6 +1,7 @@
 ---
 title: Diarra Dit Latapie
 subtitle: Logo / Lettering
+mainImage: /cms/DDL.jpg
 sections:
   - title: Letterings
     description: >-
