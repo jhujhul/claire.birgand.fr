@@ -3,11 +3,6 @@ title: Blot Immobilier
 subtitle: Mailings / Vitrophanies / Panneaux...
 mainImage: /cms/blot.jpg
 sections:
-  - title: Vidéos motion design
-    description: 'https://youtu.be/D5OPs1Ei-Cg'
-    images:
-      - /cms/Blot_stvalentin.jpg
-    template: section
   - title: Campagne janvier 2021
     description: >-
       Création d'un mailing tirelire et de ses déclinaisons (affiches vitrines,
@@ -56,6 +51,11 @@ sections:
       vitrophanies à poser sur des locaux commerciaux.
     images:
       - /cms/blot_vitrophanies_848x575.jpg
+    template: section
+  - title: Vidéos motion design
+    description: 'https://youtu.be/D5OPs1Ei-Cg'
+    images:
+      - /cms/Blot_stvalentin.jpg
     template: section
   - title: Panneaux 4x3
     description: >-
