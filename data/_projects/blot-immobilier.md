@@ -34,14 +34,6 @@ sections:
       - /cms/blot_papillonsrs_848x575.jpg
       - /cms/gif_site.gif
     template: section
-  - title: 'Vitrophanies '
-    description: >-
-      Illustrations de lieux emblématiques (gare de St Brieuc, église
-      Notre-Dame-de-Victoire et cité de la voile à Lorient) pour des
-      vitrophanies à poser sur des locaux commerciaux.
-    images:
-      - /cms/blot_vitrophanies_848x575.jpg
-    template: section
   - title: Mailings
     description: >-
       Création de nombreux supports de prospection A4 modifiables par les
@@ -56,6 +48,14 @@ sections:
     description: 'https://youtu.be/D5OPs1Ei-Cg'
     images:
       - /cms/Blot_stvalentin.jpg
+    template: section
+  - title: 'Vitrophanies '
+    description: >-
+      Illustrations de lieux emblématiques (gare de St Brieuc, église
+      Notre-Dame-de-Victoire et cité de la voile à Lorient) pour des
+      vitrophanies à poser sur des locaux commerciaux.
+    images:
+      - /cms/blot_vitrophanies_848x575.jpg
     template: section
   - title: Panneaux 4x3
     description: >-
