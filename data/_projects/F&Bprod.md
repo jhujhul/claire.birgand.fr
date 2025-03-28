@@ -10,7 +10,7 @@ sections:
       ligne pour les acteurs de la chaîne alimentaire.
     images:
       - /cms/F&Bprod_portfolio_848x575.jpg
-      - /cms/F&Bprod_carte.jpg
+      - /cms/F&Bprod_entete.jpg
     template: section
 categories:
   - Graphisme
