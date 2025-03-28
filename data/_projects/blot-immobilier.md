@@ -53,9 +53,7 @@ sections:
       - /cms/blot_vitrophanies_848x575.jpg
     template: section
   - title: Vidéos motion design
-    description: >-
-      <a href="https://youtu.be/D5OPs1Ei-Cg">Voir la vidéo pour la campagne de
-      St Valentin</a>
+    description: 'https://youtu.be/D5OPs1Ei-Cg'
     images:
       - /cms/Blot_stvalentin.jpg
     template: section
